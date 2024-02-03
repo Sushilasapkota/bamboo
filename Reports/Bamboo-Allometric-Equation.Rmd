@@ -169,6 +169,7 @@ $$[\text{Adjusted R}^2 = 1 - \left(1 - R^2\right) \frac{n - 1}{n - k - 1}]......
 Similarly, the formula for root mean square error is given by;
 
 $$[ \text{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2} ]...........(iii)$$
+
 # Results
 
 ## Data structure and status
