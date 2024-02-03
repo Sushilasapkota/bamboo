@@ -1,0 +1,370 @@
+S.N.,plot_id,clump_sn,culm_sn,stump_ht_cm,sample_sn,sample_id,species_code,latin_name,species_name,d30,dbh,base,ht_culmination,length_m,nodes,culm_thickness_cm_bh,remarks,total no of samples,remarks,gree_wt_culm_kg,gree_wt_branch_kg,gree_wt_foliage_kg,total_biomass
+1,1-11-Y-5,2,1,20,1,1-11-Y-5-2-1,414,Dendrocalamus hookeri,Bhalu bans,10.1,9,1.2,14.7,15.2,46,1.1,NA,1,,35.26,3.12,3.91,42.29
+1,1-11-Y-5,2,2,22,2,1-11-Y-5-2-2,414,Dendrocalamus hookeri,Bhalu bans,12.6,10.2,1.3,14.9,15.6,46,1.1,NA,2,,39.38,2.98,3.46,45.82
+1,1-11-Y-5,2,3,23,3,1-11-Y-5-2-3,414,Dendrocalamus hookeri,Bhalu bans,18.2,15,1.1,19.9,22,60,1.1,NA,3,,58.39,2.37,3.35,64.11
+2,1-51-Y-4,2,3,11.5,1,1-51-Y-4-2-1,404,Bambusa nepalensis,Choya bans,5.8,5.6,0.5,10.3,10.8,27,2,NA,4,,25.3,2.6,4.5,32.4
+2,1-51-Y-4,2,2,12,2,1-51-Y-4-2-2,404,Bambusa nepalensis,Choya bans,6.7,6.4,1.5,13.8,13.5,33,2.3,NA,5,,14.6,1.2,0.93,16.73
+2,1-51-Y-4,2,1,14,3,1-51-Y-4-2-3,404,Bambusa nepalensis,Choya bans,8.8,8.6,2,15.4,14.9,43,1.4,NA,6,,7.2,0.93,1.7,9.83
+3,1-51-Y-12,1,1,12.5,1,1-51-Y-12-1-1,413,Dendrocalamus hamiltonii,Choya bans,11.6,11.2,2.1,14.6,14.2,35,2,NA,7,,32.6,4.2,6.3,43.1
+3,1-51-Y-12,2,2,13,2,1-51-Y-12-2-2,413,Dendrocalamus hamiltonii,Choya bans,8.5,8.3,0.7,16.5,16.1,45,2,NA,8,,18.2,3.7,3.69,25.59
+3,1-51-Y-12,2,3,14,3,1-51-Y-12-2-3,413,Dendrocalamus hamiltonii,Choya bans,6.6,6.5,1.3,13.2,13.7,31,1.3,NA,9,,13.3,1.8,1.2,16.3
+4,1-73-Y-17,1,1,30,1,1-73-Y-17-1-1,414,Dendrocalamus hookeri,Bhalu Bans,15,14.5,3,21.5,25.5,49,1.9,NA,10,,85.2,6.6,1.9,93.7
+4,1-73-Y-17,2,2,30,2,1-73-Y-17-2-2,414,Dendrocalamus hookeri,Bhalu Bans,10.1,9.6,3.5,20.8,26.5,56,1.8,NA,11,,46.8,5.7,1.7,54.2
+4,1-73-Y-17,3,3,30,3,1-73-Y-17-3-3,414,Dendrocalamus hookeri,Bhalu Bans,9,8.4,3,18.1,22,53,1.5,NA,12,,39.8,4.4,1.5,45.7
+5,4-72-Y-1,2,1,30,1,4-72-Y-1-2-1,404,Bambusa nepalensis,Tama bans,4.3,3.4,0.3,8.1,8.3,47,1.6,NA,13,,3.5,1.7,0.3,5.5
+6,4-72-Y-4,1,1,30,S1,4-72-Y-4-1-S1,404,Bambusa nepalensis,Tama bans,9.3,7.9,5,15,19.7,48,2.2,NA,14,,34.7,3.8,2.4,40.9
+6,4-72-Y-4,1,2,30,S2,4-72-Y-4-1-S2,404,Bambusa nepalensis,Tama bans,4.6,9.3,0.8,9,9.2,23,1.3,NA,15,,7.3,0.5,0.3,8.1
+6,4-72-Y-4,1,3,30,S3,4-72-Y-4-1-S3,404,Bambusa nepalensis,Tama bans,9.2,8.2,1.5,20,20.9,51,2.4,NA,16,,45.5,3.7,3.8,53
+7,4-72-Y-2,3,1,30,1,4-72-Y-2-3-1,406,Bambusa nutans,taru,7.4,7.4,0.5,10.5,10.7,47,1.9,NA,17,,11.9,3.4,0.95,16.25
+8,3-10-Y-4,1,1,55,1,3-10-Y-4-1-1,406,Bambusa nutans,taru bans,7.1,6.8,0.5,15.2,15.3,44,1.3,NA,18,,25,7.3,6.6,38.9
+8,3-10-Y-4,2,2,30,2,3-10-Y-4-2-2,406,Bambusa nutans,taru bans,5,4.7,0.5,11.9,12.9,39,0.9,NA,19,,6.4,0.7,2.2,9.3
+9,1-74-Y-15,1,1,20,M,1-74-Y-15-1-M,414,Dendrocalamus hookeri,Bhalu Bans,8,7.8,7,17,22.5,54,1.65,NA,20,,30.884,4.245,4.4,39.529
+9,1-74-Y-15,1,2,25,L,1-74-Y-15-1-L,414,Dendrocalamus hookeri,Bhalu Bans,14,13.1,12,19,25.6,65,1.2,NA,21,,49.69,1.08,4.53,55.3
+10,1-74-Y-12,3,1,30,1,1-74-Y-12-3-1,414,Dendrocalamus hookeri,Bhalu Bans,5,4.5,4,7.7,9,24,1,NA,22,,54,1.85,1,56.85
+11,1-62- Y-20,C1,1,30,S,1-62- Y-20-C1-S,404,Bambusa nepalensis,B. nepalensis,3.5,3.2,4,7.8,11.6,24,0.4,NA,23,,1.8,1.16,1.53,4.49
+11,1-62- Y-20,C1,2,30,M,1-62- Y-20-C1-M,404,Bambusa nepalensis,B. nepalensis,7.8,7.7,4.4,13.2,15.6,34,0.9,NA,24,,16.2,1.726,3.15,21.076
+11,1-62- Y-20,C1,3,30,L,1-62- Y-20-C1-L,404,Bambusa nepalensis,B. nepalensis,9,8.7,4.7,15.6,19.2,49,1.1,NA,25,,32.42,3.126,3.765,39.311
+11,1-62- Y-20,C4,1,30,S,1-62- Y-20-C4-S,413,Dendrocalamus hamiltonii,D. hamiltorii,4.7,4.6,6,13.7,15.3,44,0.6,NA,26,,6.44,0.62,0.655,7.715
+11,1-62- Y-20,C4,2,30,M,1-62- Y-20-C4-M,413,Dendrocalamus hamiltonii,D. hamiltorii,6,5.2,4.1,10.3,13,26,0.9,NA,27,,7.65,0.195,0.1,7.945
+11,1-62- Y-20,C4,3,30,L,1-62- Y-20-C4-L,413,Dendrocalamus hamiltonii,D. hamiltorii,10.3,10,9.1,18.7,22.4,54,1.2,NA,28,,42.517,2.465,3.335,48.317
+11,1-62- Y-20,C5,1,30,S,1-62- Y-20-C5-S,405,Bambusa cupulata,B. nutans,5,4.9,1.6,10.3,12,32,0.7,NA,29,,7.77,1.31,2.11,11.19
+11,1-62- Y-20,C5,2,30,M,1-62- Y-20-C5-M,405,Bambusa cupulata,B. nutans,6.9,6.8,3,14.6,17.7,42,1,NA,30,,16.1,1.12,1.88,19.1
+11,1-62- Y-20,C5,3,30,L,1-62- Y-20-C5-L,405,Bambusa cupulata,B. nutans,8.8,8.8,5.2,13.8,21.1,38,1,NA,31,,30.82,2.8,4.47,38.09
+12,1-26-Y-11,C1,1,25,S,1-26-Y-11-C1-S,405,Bambusa cupulata,mal bans,4.4,4,1.8,8.3,10.5,28,0.8,NA,32,,4.245,0.185,0.465,4.895
+12,1-26-Y-11,C1,2,20,M,1-26-Y-11-C1-M,405,Bambusa cupulata,mal bans,6.5,6.3,2.1,9.7,11.2,32,1.1,NA,33,,10.48,2.01,1.92,14.41
+12,1-26-Y-11,C5,1,30,S,1-26-Y-11-C5-S,404,Bambusa nepalensis,choya bans,4.5,3.8,5.3,7.4,10.5,27,0.8,NA,34,,4.245,0.145,0.23,4.62
+12,1-26-Y-11,C5,2,30,M,1-26-Y-11-C5-M,404,Bambusa nepalensis,choya bans,7.2,6.7,7.2,15.4,19.1,52,0.9,NA,35,,19.48,0.295,0.54,20.315
+12,1-26-Y-11,C5,3,25,L,1-26-Y-11-C5-L,404,Bambusa nepalensis,choya bans,10.6,9.8,3.6,16.4,20.5,53,1.2,NA,36,,33.35,2.59,1.54,37.48
+13,1-26-Y-12,5,1,30,1,1-26-Y-12-5-1,414,Dendrocalamus hookeri,Bhalu Bans,6,6.2,2.2,13.5,15.8,45,0.4,NA,37,,10.767,2.962,1.1,14.829
+13,1-26-Y-12,1,1,25,2,1-26-Y-12-1-2,414,Dendrocalamus hookeri,Bhalu Bans,10.9,10.8,3.2,15.3,18.4,53,1,NA,38,,43.65,3.865,1.3,48.815
+13,1-26-Y-12,1,1,25,3,1-26-Y-12-1-3,414,Dendrocalamus hookeri,Bhalu Bans,18.8,15.7,5.8,15.3,19.4,70,1.2,NA,39,,63.86,5.965,1.7,71.525
+14,7-30-Y-4,3,1,30,S1,7-30-Y-4-3-S1,406,Bambusa nutans,taru bans,4.8,4.5,1.2,8.7,9.5,39,0.7,NA,40,,7.83,2.7,2,12.53
+14,7-30-Y-4,3,2,30,S2,7-30-Y-4-3-S2,406,Bambusa nutans,taru bans,5.3,5.2,1,8.5,9.4,38,0.7,NA,41,,9.1,2.1,1.6,12.8
+14,7-30-Y-4,3,3,30,S3,7-30-Y-4-3-S3,406,Bambusa nutans,taru bans,6.3,5.2,0.8,9,9.6,40,0.7,NA,42,,9.315,1.46,1.25,12.025
+14,7-30-Y-4,6,1,30,M1,7-30-Y-4-6-M1,406,Bambusa nutans,taru bans,6.7,6.4,1.8,12.3,14.3,51,0.8,NA,43,,17.15,0.99,0.96,19.1
+14,7-30-Y-4,6,2,30,M2,7-30-Y-4-6-M2,406,Bambusa nutans,taru bans,7.1,6.5,1.6,12.9,14.8,50,0.8,NA,44,,18.65,1.023,0.735,20.408
+14,7-30-Y-4,6,3,30,M3,7-30-Y-4-6-M3,406,Bambusa nutans,taru bans,7,6.8,1.8,13.1,15.6,49,0.8,NA,45,,22.365,1.4,0.865,24.63
+15,4-46-Y-2,4,1,30,1,4-46-Y-2-4-1,403,Bambusa balcooa,Dhanu,8,7.8,1.5,12,14.5,32,1.8,NA,46,,22.6,7,4.3,33.9
+15,4-46-Y-2,4,1,30,2,4-46-Y-2-4-2,403,Bambusa balcooa,Dhanu,7.7,7.4,1.5,11.5,13.7,31,0.8,NA,47,,17.8,6.1,4,27.9
+15,4-46-Y-2,4,1,30,3,4-46-Y-2-4-3,403,Bambusa balcooa,Dhanu,5.8,5.5,2,9.5,10.3,22,1.6,NA,48,,13.5,4.9,2.3,20.7
+16,4-46-Y-3,2,1,30,1,4-46-Y-3-2-1,413,Dendrocalamus hamiltonii,Tama Bans,9.5,9.1,1.7,18,17.5,48,2.6,NA,49,,38.8,11.7,6.2,56.7
+16,4-46-Y-3,2,1,30,2,4-46-Y-3-2-2,413,Dendrocalamus hamiltonii,Tama Bans,6.9,6.5,0.5,10.5,11.2,34,1.3,NA,50,,17,6.4,2.1,25.5
+16,4-46-Y-3,2,1,30,3,4-46-Y-3-2-3,413,Dendrocalamus hamiltonii,Tama Bans,6.5,6.3,1,10.2,10.7,29,1.1,NA,51,,16.5,3.1,1.8,21.4
+16,4-46-Y-3,2,1,30,4,4-46-Y-3-2-4,413,Dendrocalamus hamiltonii,Tama Bans,4.9,4.6,0.5,7,7.3,19,1.2,NA,52,,14.8,2.4,1.3,18.5
+17,1-37-Y-31,2,1,55,1,1-37-Y-31-2-1,413,Dendrocalamus hamiltonii,Dhungre/Tama,13.5,12,2,12.7,15.4,38,3,NA,53,,33.8,3.2,2.8,39.8
+17,1-37-Y-31,2,2,30,2,1-37-Y-31-2-2,413,Dendrocalamus hamiltonii,Dhungre/Tama,6.6,5.4,2,9.2,11.2,29,1.6,NA,54,,27,2.7,2,31.7
+17,1-37-Y-31,2,3,30,3,1-37-Y-31-2-3,413,Dendrocalamus hamiltonii,Dhungre/Tama,9.5,8.9,2,11,13,32,2,NA,55,,21.3,1.9,1.2,24.4
+18,1-68-Y-3,3,1,30,1,1-68-Y-3-3-1,404,Bambusa nepalensis,Choya bans,5.4,5,1.5,19.5,12,32,1.5,NA,56,,14.1,2.8,2.2,19.1
+18,1-68-Y-3,3,2,30,2,1-68-Y-3-3-2,413,Dendrocalamus hamiltonii,Choya bans,7.5,7.4,1,11.3,13.5,38,1.4,NA,57,,16.7,3.8,4.2,24.7
+18,1-68-Y-3,3,3,30,3,1-68-Y-3-3-3,413,Dendrocalamus hamiltonii,Choya bans,9,8.8,2.5,9.9,12.6,41,1,NA,58,,20.4,5.5,4.8,30.7
+19,6-27-Y-4,1,1,30,1,6-27-Y-4-1-1,406,Bambusa nutans,Tarubans,10.5,9.5,5.1,18.4,23.5,57,1.2,NA,59,,45.8,2.5,1.8,50.1
+19,6-27-Y-4,1,2,30,2,6-27-Y-4-1-2,406,Bambusa nutans,Tarubans,7.8,6.9,3.1,14,17.5,54,0.8,NA,60,,29.7,1.9,1.5,33.1
+19,6-27-Y-4,1,3,30,3,6-27-Y-4-1-3,406,Bambusa nutans,Tarubans,6.5,6.2,2.2,14.2,16.4,44,0.8,NA,61,,12.5,1.5,1.3,15.3
+20,2-53-y-4,c1,s1,30,1,2-53-y-4-c1-1,403,Bambusa balcooa,Harauti/Dhanu,6.2,5.6,1.9,8.3,10.3,36,0.8,NA,62,,13.8,3.5,1.7,19
+20,2-53-y-4,c1,s2,30,2,2-53-y-4-c1-2,403,Bambusa balcooa,Harauti/Dhanu,5.8,5.3,2.2,10.7,12.9,43,0.7,NA,63,,9.9,1.7,0.4,12
+20,2-53-y-4,c1,s3,30,3,2-53-y-4-c1-3,403,Bambusa balcooa,Harauti/Dhanu,6.2,5.6,1.9,8.2,10.3,35,0.8,NA,64,,10,3.1,1.6,14.7
+20,2-53-y-4,c2,m1,30,4,2-53-y-4-c2-4,403,Bambusa balcooa,Harauti/Dhanu,8.6,7,3.5,12.9,16.8,53,0.8,NA,65,,20.4,2.6,2.1,25.1
+20,2-53-y-4,c2,m2,30,5,2-53-y-4-c2-5,403,Bambusa balcooa,Harauti/Dhanu,8,7.5,2.7,13.1,17,57,0.7,NA,66,,19.8,2.9,2,24.7
+20,2-53-y-4,c5,m3,30,6,2-53-y-4-c5-6,403,Bambusa balcooa,Harauti/Dhanu,7.8,6.1,3.8,12.7,16.3,54,0.8,NA,67,,18.9,2.7,1.9,23.5
+20,2-53-y-4,c2,l1,30,7,2-53-y-4-c2-7,403,Bambusa balcooa,Harauti/Dhanu,9,8.5,2,15,17.1,61,0.8,NA,68,,39.8,2.3,2.2,44.3
+20,2-53-y-4,c5,l2,30,8,2-53-y-4-c5-8,403,Bambusa balcooa,Harauti/Dhanu,9,8.5,4.1,12.7,17.5,63,0.9,NA,69,,40.1,2,2.1,44.2
+20,2-53-y-4,c2,l3,30,9,2-53-y-4-c2-9,403,Bambusa balcooa,Harauti/Dhanu,9.1,8.6,2.6,13.8,16.7,69,0.9,NA,70,,41.2,1.9,2.1,45.2
+21,4-34-Y-2,4,1,30,1,4-34-Y-2-4-1,406,Bambusa nutans,Taru,6.1,5.8,1,14.3,14.6,47,1.4,NA,71,,16.1,6.5,1.3,23.9
+21,4-34-Y-2,4,2,30,2,4-34-Y-2-4-2,406,Bambusa nutans,Taru,3.8,3.4,0.5,6,6.4,22,1.3,NA,72,,3.1,1.5,0.5,5.1
+22,1-49-Y-1,1,1,30,1,1-49-Y-1-1-1,404,Bambusa nepalensis,Choya Bans,5.9,5.5,1,10.5,12.9,31,1.8,NA,73,,15.1,2.7,1.5,19.3
+22,1-49-Y-1,1,2,30,2,1-49-Y-1-1-2,404,Bambusa nepalensis,Choya Bans,8.8,8.6,1.5,12,15.7,42,2.8,NA,74,,29,3.9,1.4,34.3
+23,1-49-Y-5,1,1,30,1,1-49-Y-5-1-1,413,Dendrocalamus hamiltonii,Choya Bans,11.5,10.1,3.2,9.9,13.6,58,3,NA,75,,22.1,3.4,0.9,26.4
+24,6-14-Y-19,1,1,30,1,6-14-Y-19-1-1,413,Dendrocalamus hamiltonii,Tama Bans,5.2,5,2.1,13.5,13.9,40,0.3,NA,76,,18.71,1.23,1.56,21.5
+24,6-14-Y-19,1,2,30,2,6-14-Y-19-1-2,413,Dendrocalamus hamiltonii,Tama Bans,7.6,7.5,2.3,16.1,19.3,48,0.4,NA,77,,30.83,1.79,2.12,34.74
+24,6-14-Y-19,1,3,30,3,6-14-Y-19-1-3,413,Dendrocalamus hamiltonii,Tama Bans,9.8,9.3,2.7,17.1,21.2,54,1.2,NA,78,,48.57,2.21,3.53,54.31
+24,6-14-Y-19,1,4,30,4,6-14-Y-19-1-4,413,Dendrocalamus hamiltonii,Tama Bans,12.5,11.3,3.3,17.3,21.9,54,1.3,NA,79,,56.89,2.73,3.86,63.48
+25,6-14-Y-21,3,1,20,1,6-14-Y-21-3-1,406,Bambusa nutans,Taru Bans,4.4,4.5,1.9,12.1,14.3,36,0.4,NA,80,,13.44,1.24,0.435,15.115
+25,6-14-Y-21,3,2,20,2,6-14-Y-21-3-2,406,Bambusa nutans,Taru Bans,7.8,7.2,1.9,17.7,22.8,49,1.4,NA,81,,28.3,2.98,3.16,34.44
+25,6-14-Y-21,3,3,20,3,6-14-Y-21-3-3,406,Bambusa nutans,Taru Bans,9,8.5,2.9,17.6,21.9,56,1.2,NA,82,,43.72,4.86,4.324,52.904
+25,6-14-Y-21,3,4,20,4,6-14-Y-21-3-4,406,Bambusa nutans,Taru Bans,11.9,11.2,4.1,16.9,22.8,57,1.1,NA,83,,49.34,5.23,6.23,60.8
+26,4-23-Y-18,1,1,30,S1,4-23-Y-18-1-S1,405,Bambusa cupulata,Mal/ Choya Bans,4.7,4.7,2.1,10.2,14.1,35,0.5,NA,84,,8.07,2.54,0.134,10.744
+26,4-23-Y-18,1,1,30,S2,4-23-Y-18-1-S2,405,Bambusa cupulata,Mal/ Choya Bans,5.1,5.4,2,11.7,14.4,39,0.55,NA,85,,10.69,0.203,0.126,11.019
+26,4-23-Y-18,1,1,30,M1,4-23-Y-18-1-M1,405,Bambusa cupulata,Mal/ Choya Bans,6.9,6.8,1.4,12,14.6,44,0.7,NA,86,,20.54,3.96,1.25,25.75
+26,4-23-Y-18,1,1,30,M2,4-23-Y-18-1-M2,405,Bambusa cupulata,Mal/ Choya Bans,8.1,7.7,1,18,20.3,47,0.7,NA,87,,28.67,5.15,1.05,34.87
+26,4-23-Y-18,1,1,30,L1,4-23-Y-18-1-L1,405,Bambusa cupulata,Mal/ Choya Bans,8.3,8.6,1.7,16.8,19.4,51,0.8,NA,88,,31.24,5.2,1.1,37.54
+26,4-23-Y-18,1,1,30,L2,4-23-Y-18-1-L2,405,Bambusa cupulata,Mal/ Choya Bans,9.5,9.4,1.8,22.4,25.1,51,0.85,NA,89,,43.1,1.05,0.21,44.36
+27,6-70-Y-8,12,1,20,1,6-70-Y-8-12-1,406,Bambusa nutans,Taru Bans,8.5,7.7,2.1,15.3,17.5,58,1.2,NA,90,,53.86,4.05,4.67,62.58
+27,6-70-Y-8,12,2,25,2,6-70-Y-8-12-2,406,Bambusa nutans,Taru Bans,8.2,7.5,2.3,16.6,18.2,53,1.2,NA,91,,48.92,3.96,3.87,56.75
+27,6-70-Y-8,12,3,30,3,6-70-Y-8-12-3,406,Bambusa nutans,Taru Bans,8.4,7.2,2.9,15,17.8,57,1.2,NA,92,,45.07,4.32,3.75,53.14
+28,6-70-Y-12,5,1,40,1,6-70-Y-12-5-1,406,Bambusa nutans,Chille/Taru Bans,4.5,3.9,2.6,7.6,9.8,39,0.8,NA,93,,8.72,2.32,1.52,12.56
+28,6-70-Y-12,5,2,20,2,6-70-Y-12-5-2,406,Bambusa nutans,Chille/Taru Bans,4.8,4.4,1.6,11.2,12.5,49,0.8,NA,94,,9.73,2.1,1.25,13.08
+28,6-70-Y-12,5,3,50,3,6-70-Y-12-5-3,406,Bambusa nutans,Chille/Taru Bans,7,6.5,1.8,11.8,13.7,54,1.1,NA,95,,15.23,3.21,3.56,22
+28,6-70-Y-12,5,4,20,4,6-70-Y-12-5-4,406,Bambusa nutans,Chille/Taru Bans,6.9,6.5,1.6,12.2,13.7,49,1.1,NA,96,,16.84,3.59,2.86,23.29
+29,6-70-Y-15,1,1,20,S1,6-70-Y-15-1-S1,404,Bambusa nepalensis,Khasro Bans/ Tama,8.8,8.8,1.9,16.9,20.4,51,0.4,NA,97,,23.8,2.25,2.19,28.24
+29,6-70-Y-15,1,2,40,S2,6-70-Y-15-1-S2,404,Bambusa nepalensis,Khasro Bans/ Tama,10.3,10.3,2.2,17.3,21.7,53,1.1,NA,98,,35.37,3.62,2.13,41.12
+29,6-70-Y-15,1,3,20,S3,6-70-Y-15-1-S3,404,Bambusa nepalensis,Khasro Bans/ Tama,7.8,6.7,1.6,16.3,18.9,49,1.3,NA,99,,18.92,1.95,2.56,23.43
+30,2-64-Y-5,3,3,30,3,2-64-Y-5-3-3,405,Bambusa cupulata,Mal bans,8.5,8.3,2.5,19,23,54,1.8,NA,100,,38.755,5.84,1.55,46.145
+30,2-64-Y-5,3,2,30,2,2-64-Y-5-3-2,405,Bambusa cupulata,Mal bans,6.6,6.5,2.5,18,22.5,55,1.6,NA,101,,24.4,2.235,0.445,27.08
+30,2-64-Y-5,3,1,30,1,2-64-Y-5-3-1,405,Bambusa cupulata,Mal bans,5.4,5,2,11.5,13.5,33,1.5,NA,102,,10.23,1.35,0.7,12.28
+30,2-64-Y-5,2,1,30,1,2-64-Y-5-2-1,405,Bambusa cupulata,Mal bans,5.2,4.8,2,11.7,13,35,1.4,NA,103,,9.26,1.595,0.385,11.24
+30,2-64-Y-5,2,2,30,2,2-64-Y-5-2-2,405,Bambusa cupulata,Mal bans,6.8,6.5,2,18,21,47,1.6,NA,104,,24.75,3.8,0.7,29.25
+30,2-64-Y-5,2,3,30,3,2-64-Y-5-2-3,405,Bambusa cupulata,Mal bans,8.3,8.1,3,18.5,23.5,48,1.7,NA,105,,37.805,3.96,1.25,43.015
+31,6-44-Y-1,2,1,30,1,6-44-Y-1-2-1,406,Bambusa nutans,Taru Bans,8.2,7.7,2.1,15.8,17.2,59,1.1,NA,106,,57.1,3.15,2.16,62.41
+31,6-44-Y-1,2,2,30,2,6-44-Y-1-2-2,406,Bambusa nutans,Taru Bans,7.2,6.8,2.3,12.3,14.2,47,1,NA,107,,49.74,3.01,2.09,54.84
+31,6-44-Y-1,2,3,30,3,6-44-Y-1-2-3,406,Bambusa nutans,Taru Bans,5,4.7,0.8,9.1,10.2,38,1,NA,108,,32.67,2.72,1.62,37.01
+32,3-41-Y-5,1,1,30,1,3-41-Y-5-1-1,405,Bambusa cupulata,Mal Bans,5.5,5.3,2,10.5,12.5,32,1.3,NA,109,,10.42,0.95,0.395,11.765
+32,3-41-Y-5,2,1,30,2,3-41-Y-5-2-2,405,Bambusa cupulata,Mal Bans,7.4,7.5,2,12.5,14.5,51,1.5,NA,110,,21.51,2.035,0.9,24.445
+32,3-41-Y-5,3,1,30,3,3-41-Y-5-3-3,405,Bambusa cupulata,Mal Bans,8.6,8.5,2.5,13.5,17,59,1.7,NA,111,,29.74,5.22,2.16,37.12
+33,6-61-Y-6,6,1,40,1,6-61-Y-6-6-1,403,Bambusa balcooa,Dhanu Bans,6.8,5.8,2.5,12.2,15.9,46,1.1,NA,112,,16.14,1.56,3.28,20.98
+33,6-61-Y-6,6,2,40,2,6-61-Y-6-6-2,403,Bambusa balcooa,Dhanu Bans,10.1,10,0.3,14.8,17.6,48,2,NA,113,,53.95,1.25,3.1,58.3
+33,6-61-Y-6,6,3,45,3,6-61-Y-6-6-3,403,Bambusa balcooa,Dhanu Bans,7.2,7.2,0.1,11.7,11.7,31,1.3,NA,114,,26.29,1.32,2.95,30.56
+34,4-39-Y-7,5,1,30,1,4-39-Y-7-5-1,413,Dendrocalamus hamiltonii,Tama Bans,5.6,5.3,0.5,13.5,14.8,35,0.9,NA,115,,10.3,0.6,0.3,11.2
+35,4-39-Y-7,5,1,30,1,4-39-Y-7-5-2,413,Dendrocalamus hamiltonii,Tama Bans,6.4,5.6,1.7,11.6,16.9,43,1.2,NA,116,,12.6,2.7,1.7,17
+36,4-39-Y-7,5,1,30,1,4-39-Y-7-5-3,413,Dendrocalamus hamiltonii,Tama Bans,7.4,7.5,0.8,10,10.7,40,0.6,NA,117,,10.5,3.1,0.8,14.4
+37,4-39-Y-7,5,1,30,1,4-39-Y-7-5-4,413,Dendrocalamus hamiltonii,Tama Bans,9.7,8.8,3,16,20.4,53,1.1,NA,118,,28.8,4.5,1.5,34.8
+38,3-17-Y-1,1,1,30,1,3-17-Y-1-C1-S1,403,Bambusa balcooa,Dhanu,7.9,7.8,3.6,19.2,24,71,0.9,NA,119,,46.8,3.14,1.2,51.14
+38,3-17-Y-1,1,1,30,1,3-17-Y-1-C1-M1,403,Bambusa balcooa,Dhanu,9.7,9,4.3,19.1,25.1,78,1,NA,120,,57.5,9.35,1.16,68.01
+38,3-17-Y-1,1,1,30,1,3-17-Y-1-C1-L1,403,Bambusa balcooa,Dhanu,11.9,11.8,3.7,19.7,25,83,1.3,NA,121,,81.8,11.1,1.21,94.11
+39,3-65-Y-5,1,1,30,1,3-65-Y-5-1-1,405,Bambusa cupulata,Mala,5.2,5,2,8.8,10.5,27,1,NA,122,,10.2,2.64,2.16,15
+39,3-65-Y-5,2,2,30,1,3-65-Y-5-2-1,405,Bambusa cupulata,mala,7.8,7.8,3,14.6,16.5,48,1.4,NA,123,,23.14,2.32,2.325,27.785
+40,3-65-Y-7,C1,1,15,S1,3-65-Y-7-C1-S1,413,Dendrocalamus hamiltonii,Choya Bans,10.8,10.1,4,20.5,24.5,57,1.8,NA,124,,54.1,4.98,2.275,61.355
+40,3-65-Y-7,C1,2,20,M1,3-65-Y-7-C1-M1,413,Dendrocalamus hamiltonii,Choya Bans,8.6,8.6,3.5,21,25,55,1.9,NA,125,,40.96,9.53,4.28,54.77
+40,3-65-Y-7,C1,3,20,L1,3-65-Y-7-C1-L1,413,Dendrocalamus hamiltonii,Choya Bans,11.7,10.8,5.5,19.5,21.5,58,2,NA,126,,50.52,7.06,2.8,60.38
+41,3-65-Y-10,1,1,20,1,3-65-Y-10-1-1,413,Dendrocalamus hamiltonii,Choya Bans,10.2,9.5,3.5,17,21.5,49,2,NA,127,,38.405,3.82,1.97,44.195
+41,3-65-Y-10,2,1,15,1,3-65-Y-10-2-1,413,Dendrocalamus hamiltonii,Choya Bans,11.5,10,4.5,17.5,21,45,2.1,NA,128,,35.125,3.1,1.035,39.26
+41,3-65-Y-10,3,1,20,1,3-65-Y-10-3-1,413,Dendrocalamus hamiltonii,Choya Bans,11.8,10.9,4,18.5,22.5,54,1.8,NA,129,,46.46,8.175,1.77,56.405
+42,2-40-Y-5,3,1,30,1,2-40-Y-5-3-1,403,Bambusa balcooa,Dhanu Bans,5.9,5.3,2.3,11,13.5,42,1.1,NA,130,,7,1.8,0.85,9.65
+42,2-40-Y-5,3,2,30,2,2-40-Y-5-3-2,403,Bambusa balcooa,Dhanu Bans,7.1,6.6,2,12.5,14.5,46,1.2,NA,131,,14.1,3.775,0.825,18.7
+42,2-40-Y-5,3,3,30,3,2-40-Y-5-3-3,403,Bambusa balcooa,Dhanu Bans,9.5,8.5,3,15.5,18.5,58,1.9,NA,132,,31.1,3.8,0.71,35.61
+42,2-40-Y-5,4,1,15,1,2-40-Y-5-4-1,403,Bambusa balcooa,Dhanu Bans,6.5,5.5,2,11,12.5,46,1.3,NA,133,,9.65,0.7,0.67,11.02
+42,2-40-Y-5,4,2,20,2,2-40-Y-5-4-2,403,Bambusa balcooa,Dhanu Bans,7.7,6.9,2.5,12.5,14.5,52,1.3,NA,134,,17.35,3.825,1.125,22.3
+42,2-40-Y-5,4,3,20,3,2-40-Y-5-4-3,403,Bambusa balcooa,Dhanu Bans,9.4,8.8,2,15.5,18.5,58,1.2,NA,135,,27.16,3.565,2.25,32.975
+43,6-59-Y-6,2,1,30,1,6-59-Y-6-2-1,403,Bambusa balcooa,Dhanu/bhalu bans,6.5,6.2,2.5,12.3,15.2,40,1,NA,136,,15.26,1.72,2.63,19.61
+43,6-59-Y-6,2,2,40,2,6-59-Y-6-2-2,403,Bambusa balcooa,Dhanu/bhalu bans,9,9.2,0.3,20.8,21.2,49,1,NA,137,,42.36,2.29,3.92,48.57
+43,6-59-Y-6,2,3,20,3,6-59-Y-6-2-3,403,Bambusa balcooa,Dhanu/bhalu bans,10.9,10.9,1.6,18.2,21.6,47,1,NA,138,,54.73,2.86,2.32,59.91
+44,1-18-Y-19,1,1,23,S1,1-18-Y-19-1-S1,405,Bambusa cupulata,malbans,5.9,5.4,1.3,13.2,15.5,42,1.3,NA,139,,11.855,1.74,0.147,13.742
+44,1-18-Y-19,1,2,52,S2,1-18-Y-19-1-S2,405,Bambusa cupulata,malbans,8,7.6,2.3,14.6,16.1,40,1.3,NA,140,,25.824,5.48,5.85,37.154
+44,1-18-Y-19,4,1,42,S1,1-18-Y-19-4-S1,405,Bambusa cupulata,malbans,9.1,8.7,2.7,16.7,17.8,46,1.2,NA,141,,33.28,3.82,9.72,46.82
+44,1-18-Y-19,8,1,33,S1,1-18-Y-19-8-S1,414,Dendrocalamus hookeri,bhalu bans,13.3,13.2,4.7,25.1,27.6,78,3.1,NA,142,,108.67,2.78,2.76,114.21
+44,1-18-Y-19,8,2,31,S2,1-18-Y-19-8-S2,414,Dendrocalamus hookeri,bhalu bans,8.8,8.2,1,19.7,20.6,50,1.9,NA,143,,4,4.21,2.85,11.06
+45,1-37-Y-15,4,1,32,S1,1-37-Y-15-4-S1,405,Bambusa cupulata,mal bans,8.4,8.2,1.5,13.5,16,19,0.5,NA,144,,18.6,2.9,3.1,24.6
+45,1-37-Y-15,4,2,25,S2,1-37-Y-15-4-S2,405,Bambusa cupulata,mal bans,6.6,6.1,2,11.6,13,24,0.8,NA,145,,12.9,1.7,1.5,16.1
+45,1-37-Y-15,4,3,30,S3,1-37-Y-15-4-S3,405,Bambusa cupulata,mal bans,4.9,4.9,1.8,9.6,12,26,1.4,NA,146,,10.4,0.9,1.8,13.1
+46,4-3-Y-1,3,1,30,1,4-3-Y-1-3-1,413,Dendrocalamus hamiltonii,Tama Bans,6.2,5.6,0.5,7,7.2,23,1.7,NA,147,,13.8,2.9,2,18.7
+46,4-3-Y-1,3,2,30,2,4-3-Y-1-3-2,413,Dendrocalamus hamiltonii,Tama Bans,7,6.8,2.3,13,14.8,28,2,NA,148,,22.7,7.3,3.8,33.8
+46,4-3-Y-1,3,3,30,3,4-3-Y-1-3-3,413,Dendrocalamus hamiltonii,Tama Bans,8.1,7.8,2,13.5,14.2,35,2.2,NA,149,,26,6.8,3.5,36.3
+46,4-3-Y-1,3,4,30,4,4-3-Y-1-3-4,413,Dendrocalamus hamiltonii,Tama Bans,8.9,8.5,1.5,14.8,15.7,34,2.3,NA,150,,25.6,7.2,4,36.8
+47,4-3-Y-4,3,1,30,1,4-3-Y-4-3-1,403,Bambusa balcooa,Dhanu,8.1,7.1,2.5,12,14.5,37,1.7,NA,151,,24.8,4.6,3.2,32.6
+47,4-3-Y-4,3,2,30,2,4-3-Y-4-3-2,403,Bambusa balcooa,Dhanu,8.5,7.5,2,11.5,14.8,38,1.8,NA,152,,25.5,4.8,3.4,33.7
+47,4-3-Y-4,4,1,30,1,4-3-Y-4-4-1,403,Bambusa balcooa,Dhanu,6.1,4.7,1.5,7.5,8.3,26,1.7,NA,153,,10.8,0.9,1.5,13.2
+47,4-3-Y-4,6,1,30,1,4-3-Y-4-6-1,403,Bambusa balcooa,Dhanu,9.5,8.5,2.5,19,20.3,60,1.9,NA,154,,38.1,6.2,3.6,47.9
+48,4-52-Y-4,1,1,30,1,4-52-Y-4-1-1,403,Bambusa balcooa,Dhanu,9.9,9.5,2.3,18.5,19.4,53,2.5,NA,155,,37.5,6.1,3.2,46.8
+48,4-52-Y-4,1,2,30,2,4-52-Y-4-1-2,403,Bambusa balcooa,Dhanu,6.2,5.6,0,7.1,7.9,24,1.4,NA,156,,10.8,1.4,1.1,13.3
+48,4-52-Y-4,1,3,30,3,4-52-Y-4-1-3,403,Bambusa balcooa,Dhanu,5.3,5,0.5,7,8.1,23,1.3,NA,157,,9.7,1.5,1.2,12.4
+49,4-71-Y-6,19,1,30,1,4-71-Y-6-19-1,403,Bambusa balcooa,Dhanu,13,12.5,2,24,25.9,78,1.4,NA,158,,75.3,6.5,4,85.8
+49,4-71-Y-6,19,2,30,2,4-71-Y-6-19-2,403,Bambusa balcooa,Dhanu,12,11.7,1.9,21.5,22.6,65,0.8,NA,159,,68.4,6.7,3.2,78.3
+49,4-71-Y-6,19,3,30,3,4-71-Y-6-19-3,403,Bambusa balcooa,Dhanu,8.5,8,2.5,15.5,16.2,52,0.6,NA,160,,46.7,5.9,2.4,55
+49,4-71-Y-6,19,4,30,4,4-71-Y-6-19-4,403,Bambusa balcooa,Dhanu,6.6,6.1,3,14,15.7,49,0.5,NA,161,,39.8,4.8,2.3,46.9
+50,1-62-Y-29,4,1,30,1,1-62-Y-29-4-1,414,Dendrocalamus hookeri,Bhalu Bans,12.3,12,3,17.3,18.1,4,1.1,NA,162,,49.198,7.8,6.8,63.798
+50,1-62-Y-29,4,2,30,2,1-62-Y-29-4-2,414,Dendrocalamus hookeri,Bhalu Bans,16.5,15.3,3,21.4,18.8,4.8,1.1,NA,163,,56.077,8.79,7.79,72.657
+51,4-76-Y-2,16,1,15,S1,4-76-Y-2-16-S1,404,Bambusa nepalensis,Khasre Tama,5.3,4.8,7.2,4.8,12.5,34,1.1,NA,164,,7.411,0.575,0.7,8.686
+51,4-76-Y-2,16,2,25,S2,4-76-Y-2-16-S2,404,Bambusa nepalensis,Khasre Tama,6,5.4,4.5,9,12.8,36,1.2,NA,165,,9.995,1.47,0.00174,11.46674
+51,4-76-Y-2,16,3,45,M1,4-76-Y-2-16-M1,404,Bambusa nepalensis,Khasre Tama,8.3,7.6,3.8,11.8,13.6,36,1.3,NA,166,,18.5,1.653,0.00183,20.15483
+51,4-76-Y-2,16,4,22,L1,4-76-Y-2-16-L1,404,Bambusa nepalensis,Khasre Tama,8.9,8.3,2.1,14.8,16.5,37,1.4,NA,167,,22.7,1.225,0.978,24.903
+51,4-76-Y-2,16,5,30,L2,4-76-Y-2-16-L2,404,Bambusa nepalensis,Khasre Tama,8.7,8.4,1.8,16.7,17.4,38,1.6,NA,168,,25.216,1.627,0.00107,26.84407
+51,4-76-Y-2,16,6,30,M2,4-76-Y-2-16-M2,404,Bambusa nepalensis,Khasre Tama,7.9,7.2,2.6,12.4,13.2,35,1.2,NA,169,,19.027,1.423,0.00101,20.45101
+52,5-24-Y-14,1,1,29,1,5-24-Y-14-1-1,403,Bambusa balcooa,Dhanu bans,10.1,9.9,2.9,23.2,25.3,81,1.6,NA,170,,59.39,10.37,3.8,73.56
+52,5-24-Y-14,1,2,31,2,5-24-Y-14-1-2,403,Bambusa balcooa,Dhanu bans,8.4,8.5,1.1,20.1,22.7,78,0.7,NA,171,,42.03,7.62,2.9,52.55
+52,5-24-Y-14,1,3,13,3,5-24-Y-14-1-3,403,Bambusa balcooa,Dhanu bans,7.9,8.5,1,20,21.9,75,1.8,NA,172,,47.73,8.34,3,59.07
+52,5-24-Y-14,1,4,23,4,5-24-Y-14-1-4,403,Bambusa balcooa,Dhanu bans,7.5,7.3,1.2,16.4,17.3,52,1.6,NA,173,,40.81,9.53,3.2,53.54
+53,FRTC Attariya,,1,30,1,FRTC Attariya-1,406,Bambusa nutans,Taru Bans,4.5,4.6,2.4,14.3,17.6,44,0.8,NA,174,,9.85,1.735,0.52,12.105
+53,FRTC Attariya,,2,30,2,FRTC Attariya-2,406,Bambusa nutans,Taru Bans,6,5.6,2.5,15.1,18.4,52,1.1,NA,175,,14.85,2.15,1.2,18.2
+53,FRTC Attariya,,3,30,3,FRTC Attariya-3,406,Bambusa nutans,Taru Bans,5.4,5.2,2,15,18.2,50,1.2,NA,176,,13.61,1.91,0.93,16.45
+53,FRTC Attariya,,4,30,4,FRTC Attariya-4,406,Bambusa nutans,Taru Bans,7.2,7.1,2.8,16.8,20.3,56,1.5,NA,177,,30.82,3.75,1.65,36.22
+53,FRTC Attariya,,5,30,5,FRTC Attariya-5,406,Bambusa nutans,Taru Bans,7.5,7.2,1.9,19.5,21.5,64,1.5,NA,178,,27.25,4.275,1.865,33.39
+53,FRTC Attariya,,6,30,6,FRTC Attariya-6,406,Bambusa nutans,Taru Bans,7.5,7.5,2.9,17.4,19.7,55,1.4,NA,179,,25.96,3.945,1.375,31.28
+53,FRTC Attariya,,7,30,7,FRTC Attariya-7,406,Bambusa nutans,Taru Bans,9.7,9.6,2.4,21.7,24.3,66,1.8,NA,180,,52.165,3.458,3.455,59.078
+53,FRTC Attariya,,8,30,8,FRTC Attariya-8,406,Bambusa nutans,Taru Bans,9.6,9.5,3.5,18.4,22.8,78,1.7,NA,181,,47.43,6.96,2.99,57.38
+53,FRTC Attariya,,9,30,9,FRTC Attariya-9,406,Bambusa nutans,Taru Bans,9.6,9.3,1.8,20,21.6,65,1.7,NA,182,,46.96,4.845,3.165,54.97
+54,FRTC Attariya,,1,30,S1,FRTC Attariya-S1,405,Bambusa cupulata,Mal bans,4.8,4.8,1.9,9.8,12.8,29,0.8,NA,183,,6.972,0.775,0.96,8.707
+54,FRTC Attariya,,2,30,S2,FRTC Attariya-S2,405,Bambusa cupulata,Mal bans,5.6,5.6,0.9,15.1,16.7,35,1.3,NA,184,,14.785,0.9,0.535,16.22
+54,FRTC Attariya,,3,30,S3,FRTC Attariya-S3,405,Bambusa cupulata,Mal bans,5.5,5.4,0.8,12,13.4,29,1.2,NA,185,,12.642,0.73,0.478,13.85
+54,FRTC Attariya,,4,30,M1,FRTC Attariya-M1,405,Bambusa cupulata,Mal bans,6.5,6.4,2.1,14.1,16.4,36,1.8,NA,186,,15.845,0.984,0.892,17.721
+54,FRTC Attariya,,5,30,M2,FRTC Attariya-M2,405,Bambusa cupulata,Mal bans,7,7,2.8,18.7,22.5,44,1.4,NA,187,,17.955,1.168,0.775,19.898
+54,FRTC Attariya,,6,30,M3,FRTC Attariya-M3,405,Bambusa cupulata,Mal bans,7.5,7.4,1.9,20.9,22.7,45,1.6,NA,188,,21.335,2.031,1.79,25.156
+54,FRTC Attariya,,7,30,L1,FRTC Attariya-L1,405,Bambusa cupulata,Mal bans,8.4,8.3,2.1,18.8,21.2,41,1.8,NA,189,,38.11,2.371,1.135,41.616
+54,FRTC Attariya,,8,30,L2,FRTC Attariya-L2,405,Bambusa cupulata,Mal bans,8.5,8.5,2.7,21.6,24.7,50,1.8,NA,190,,41.35,2.18,0.89,44.42
+54,FRTC Attariya,,9,30,L3,FRTC Attariya-L3,405,Bambusa cupulata,Mal bans,8.6,8.6,2.9,19.9,23.1,43,1.7,NA,191,,42.112,2.112,1.05,45.274
+55,FRTC Attariya,,1,30,S1,FRTC Attariya-S1,414,Dendrocalamus hookeri,Bhalu Bans,5.5,5.4,1.3,13.4,14.8,49,1.2,NA,192,,6.972,0.775,0.96,8.707
+55,FRTC Attariya,,2,30,S2,FRTC Attariya-S2,414,Dendrocalamus hookeri,Bhalu Bans,4.6,4.2,2.4,11.3,14.9,46,0.9,NA,193,,14.785,0.9,0.535,16.22
+55,FRTC Attariya,,3,30,S3,FRTC Attariya-S3,414,Dendrocalamus hookeri,Bhalu Bans,6,5.9,3.2,10.9,14.3,59,1.3,NA,194,,12.642,0.73,0.478,13.85
+55,FRTC Attariya,,4,30,M1,FRTC Attariya-M1,414,Dendrocalamus hookeri,Bhalu Bans,8.2,7.3,3,12.1,14.1,52,1.8,NA,195,,15.845,0.984,0.892,17.721
+55,FRTC Attariya,,5,30,M2,FRTC Attariya-M2,414,Dendrocalamus hookeri,Bhalu Bans,8.3,7.7,3.9,15.9,19.2,56,1.9,NA,196,,17.955,1.168,0.775,19.898
+55,FRTC Attariya,,6,30,M3,FRTC Attariya-M3,414,Dendrocalamus hookeri,Bhalu Bans,8.3,8,2.8,17.8,20.7,66,2,NA,197,,21.335,2.031,1.79,25.156
+55,FRTC Attariya,,7,30,L1,FRTC Attariya-L1,414,Dendrocalamus hookeri,Bhalu Bans,9.5,8.9,2.1,15.3,18.4,63,1.7,NA,198,,38.11,2.371,1.135,41.616
+55,FRTC Attariya,,8,30,L2,FRTC Attariya-L2,414,Dendrocalamus hookeri,Bhalu Bans,9.8,9.2,2.2,15.1,16.4,57,1.6,NA,199,,41.35,2.18,0.89,44.42
+55,FRTC Attariya,,9,30,L3,FRTC Attariya-L3,414,Dendrocalamus hookeri,Bhalu Bans,9.6,9.4,3.1,21.8,24.2,71,1.8,NA,200,,42.112,2.112,1.05,45.274
+55,FRTC Attariya,,10,30,Big 1,FRTC Attariya-Big 1,414,Dendrocalamus hookeri,Bhalu Bans,11.3,11.2,2.1,18.5,20.4,63,1.9,NA,201,,71.6,6.6,2.825,81.025
+56,FRTC Attariya,,1,30,S1,FRTC Attariya-S1,404,Bambusa nepalensis,Khasre Bans,4.5,4.4,2.8,10.1,14.9,41,1,NA,202,,6.972,0.775,0.96,8.707
+56,FRTC Attariya,,2,30,S2,FRTC Attariya-S2,404,Bambusa nepalensis,Khasre Bans,4.7,4.6,2.6,9.7,12.5,34,0.9,NA,203,,14.785,0.9,0.535,16.22
+56,FRTC Attariya,,3,30,S3,FRTC Attariya-S3,404,Bambusa nepalensis,Khasre Bans,6.1,5.8,3.4,9.5,12.7,35,1,NA,204,,12.642,0.73,0.478,13.85
+56,FRTC Attariya,,4,30,M1,FRTC Attariya-M1,404,Bambusa nepalensis,Khasre Bans,7.1,6.5,3.5,12.6,16.8,48,1.1,NA,205,,15.845,0.984,0.892,17.721
+56,FRTC Attariya,,5,30,M2,FRTC Attariya-M2,404,Bambusa nepalensis,Khasre Bans,7.9,7.6,2.7,10.8,14.6,51,1.4,NA,206,,17.955,1.168,0.775,19.898
+56,FRTC Attariya,,6,30,M3,FRTC Attariya-M3,404,Bambusa nepalensis,Khasre Bans,7.6,7.4,3.6,11.1,14.7,46,1.2,NA,207,,21.335,2.031,1.79,25.156
+56,FRTC Attariya,,7,30,L1,FRTC Attariya-L1,404,Bambusa nepalensis,Khasre Bans,8.7,8.3,3.4,13.8,16.8,49,1.6,NA,208,,38.11,2.371,1.135,41.616
+56,FRTC Attariya,,8,30,L2,FRTC Attariya-L2,404,Bambusa nepalensis,Khasre Bans,8.6,8.6,5.5,11.7,16.5,43,1.5,NA,209,,41.35,2.18,0.89,44.42
+56,FRTC Attariya,,9,30,L3,FRTC Attariya-L3,404,Bambusa nepalensis,Khasre Bans,8.7,8.5,4.2,12.3,16.7,38,1.6,NA,210,,42.112,2.112,1.05,45.274
+57,Kavre,,1,30,L1,Kavre-L1,413,Dendrocalamus hamiltonii,Dhungre/Tama,14.1,13.3,3,17,19.3,68,1.6,NA,211,,53.4,5.635,5.48,64.515
+57,Kavre,,2,30,L2,Kavre-L2,413,Dendrocalamus hamiltonii,Dhungre/Tama,11.6,11,2.3,16.5,19,63,1.1,NA,212,,33.2,2.15,3.155,38.505
+57,Kavre,,3,30,L3,Kavre-L3,413,Dendrocalamus hamiltonii,Dhungre/Tama,8.5,8.3,2.5,11.7,13.75,51,0.8,NA,213,,14.45,1.5,3.5,19.45
+58,Banke,,1,30,S1,Banke-S1,403,Bambusa balcooa,Dhanu Bans,6.6,6,1.9,6.8,9.5,48,1.6,NA,214,,12.365,4.215,2.425,19.005
+58,Banke,,2,30,S2,Banke-S2,403,Bambusa balcooa,Dhanu Bans,5.7,5.3,0.8,7.5,9,42,1.4,NA,215,,7.86,3.84,1.675,13.375
+58,Banke,,3,30,M1,Banke-M1,403,Bambusa balcooa,Dhanu Bans,7.1,6.6,1.3,11.6,13.1,54,1.8,NA,216,,18.55,5.435,2.13,26.115
+58,Banke,,4,30,M2,Banke-M2,403,Bambusa balcooa,Dhanu Bans,7,6.5,1.7,12.3,14.4,57,1.7,NA,217,,19.985,7.654,3.33,30.969
+59,Banke,,1,30,S1,Banke-S1,407,Bambusa tulda,Jhapta/ Chab Bans,6.3,5,3.4,8.5,12.7,45,1.6,NA,218,,12.365,4.215,2.425,19.005
+59,Banke,,2,30,S2,Banke-S2,407,Bambusa tulda,Jhapta/ Chab Bans,6.1,4.9,3.5,9.3,13.2,46,1.6,NA,219,,7.86,3.84,1.675,13.375
+59,Banke,,3,30,S3,Banke-S3,407,Bambusa tulda,Jhapta/ Chab Bans,5.5,4.7,4.2,7.8,12.8,41,1.7,NA,220,,11.17,7.95,3.984,23.104
+59,Banke,,4,30,M1,Banke-M1,407,Bambusa tulda,Jhapta/ Chab Bans,7.7,7,2.8,12.2,15.1,48,2.2,NA,221,,18.55,5.435,2.13,26.115
+59,Banke,,5,30,M2,Banke-M2,407,Bambusa tulda,Jhapta/ Chab Bans,7.4,6.8,2.2,11.5,14.6,46,2,NA,222,,19.985,7.654,3.33,30.969
+59,Banke,,6,30,M3,Banke-M3,407,Bambusa tulda,Jhapta/ Chab Bans,8.1,7.2,1.3,12.4,14.8,43,2.4,NA,223,,22.495,11.32,5.844,39.659
+59,Banke,,7,30,L1,Banke-L1,407,Bambusa tulda,Jhapta/ Chab Bans,9.5,8.2,2.8,16.1,19.1,67,2.7,NA,224,,30.135,12.34,5.63,48.105
+59,Banke,,8,30,L2,Banke-L2,407,Bambusa tulda,Jhapta/ Chab Bans,9.4,8.4,1.8,14.5,16.6,51,2.8,NA,225,,38.945,6.482,4.53,49.957
+59,Banke,,9,30,L3,Banke-L3,407,Bambusa tulda,Jhapta/ Chab Bans,8.8,8.3,2,15.1,18.7,62,2.6,NA,226,,37.23,5.763,4.075,47.068
+60,"Gundu, Bhaktapur",,1,30,S1,"Gundu, Bhaktapur-S1",404,Bambusa nepalensis,Fusre/Tama Bans,6.3,5.6,1,14.5,16.9,55,1.2,NA,227,,13.5,2.3,1.765,17.565
+60,"Gundu, Bhaktapur",,2,30,S2,"Gundu, Bhaktapur-S2",404,Bambusa nepalensis,Fusre/Tama Bans,6.1,5.5,1.5,15,17.5,60,1.3,NA,228,,14.12,2.117,1.635,17.872
+60,"Gundu, Bhaktapur",,3,30,S3,"Gundu, Bhaktapur-S3",404,Bambusa nepalensis,Fusre/Tama Bans,6,6.3,1.5,14.5,16.5,53,1.4,NA,229,,13.37,1.937,1.73,17.037
+60,"Gundu, Bhaktapur",,4,30,M1,"Gundu, Bhaktapur-M1",404,Bambusa nepalensis,Fusre/Tama Bans,6.9,7.1,1,14.8,17.5,59,1.3,NA,230,,20.55,2.817,1.83,25.197
+60,"Gundu, Bhaktapur",,5,30,M2,"Gundu, Bhaktapur-M2",404,Bambusa nepalensis,Fusre/Tama Bans,7,7.1,1.3,13,17.7,61,1.5,NA,231,,21.245,3.02,2.15,26.415
+60,"Gundu, Bhaktapur",,6,30,M3,"Gundu, Bhaktapur-M3",404,Bambusa nepalensis,Fusre/Tama Bans,7.3,7.4,1.5,13.3,17.5,57,1.5,NA,232,,20.715,2.875,2.127,25.717
+60,"Gundu, Bhaktapur",,7,30,L1,"Gundu, Bhaktapur-L1",404,Bambusa nepalensis,Fusre/Tama Bans,9.6,9.1,1.5,9.5,21.4,68,1.3,NA,233,,26.315,2.9,1.945,31.16
+60,"Gundu, Bhaktapur",,8,30,L2,"Gundu, Bhaktapur-L2",404,Bambusa nepalensis,Fusre/Tama Bans,9.1,8.9,1.5,17,19,64,1.5,NA,234,,28.7,3.15,2.34,34.19
+60,"Gundu, Bhaktapur",,9,30,L3,"Gundu, Bhaktapur-L3",404,Bambusa nepalensis,Fusre/Tama Bans,9,8.8,1.5,7.4,19.3,65,1.7,NA,235,,29.87,3.215,2.445,35.53
+61,"Gundu, Bhaktapur",,1,30,S1,"Gundu, Bhaktapur-S1",406,Bambusa nutans,Taru Bans,5.3,5.1,1.5,11.5,13,39,1.3,NA,236,,13.5,2.3,1.765,17.565
+61,"Gundu, Bhaktapur",,2,30,S2,"Gundu, Bhaktapur-S2",406,Bambusa nutans,Taru Bans,5.4,5.2,1.3,12,13.5,38,1.3,NA,237,,14.12,2.117,1.635,17.872
+61,"Gundu, Bhaktapur",,3,30,M1,"Gundu, Bhaktapur-M1",406,Bambusa nutans,Taru Bans,6.6,6.5,1.5,14,15.5,47,1.5,NA,238,,20.55,2.817,1.83,25.197
+61,"Gundu, Bhaktapur",,4,30,M2,"Gundu, Bhaktapur-M2",406,Bambusa nutans,Taru Bans,6.5,6.5,1.5,13.5,15,46,1.4,NA,239,,21.245,3.02,2.15,26.415
+61,"Gundu, Bhaktapur",,5,30,L1,"Gundu, Bhaktapur-L1",406,Bambusa nutans,Taru Bans,8.3,8.1,3,15.3,18.7,51,1.8,NA,240,,26.315,2.9,1.945,31.16
+61,"Gundu, Bhaktapur",,6,30,L2,"Gundu, Bhaktapur-L2",406,Bambusa nutans,Taru Bans,8.5,8.3,8.4,15.7,19.8,53,1.9,NA,241,,28.7,3.15,2.34,34.19
+62,"Gundu, Bhaktapur",,1,30,S1,"Gundu, Bhaktapur-S1",413,Dendrocalamus hamiltonii,Thulo Tama,5.7,5.2,1.5,10.5,13,41,1,NA,242,,13.5,2.3,1.765,17.565
+62,"Gundu, Bhaktapur",,2,30,S2,"Gundu, Bhaktapur-S2",413,Dendrocalamus hamiltonii,Thulo Tama,5.5,5,1.5,8.5,11,38,1,NA,243,,14.12,2.117,1.635,17.872
+62,"Gundu, Bhaktapur",,3,30,S3,"Gundu, Bhaktapur-S3",413,Dendrocalamus hamiltonii,Thulo Tama,5.2,4.6,1,8.5,11,37,0.6,NA,244,,13.37,1.937,1.73,17.037
+62,"Gundu, Bhaktapur",,4,30,M1,"Gundu, Bhaktapur-M1",413,Dendrocalamus hamiltonii,Thulo Tama,6.5,6.5,1.5,13,17.5,55,0.8,NA,245,,20.55,2.817,1.83,25.197
+62,"Gundu, Bhaktapur",,5,30,M2,"Gundu, Bhaktapur-M2",413,Dendrocalamus hamiltonii,Thulo Tama,6.6,6.5,1.5,16.5,19.5,57,0.9,NA,246,,21.245,3.02,2.15,26.415
+62,"Gundu, Bhaktapur",,6,30,M3,"Gundu, Bhaktapur-M3",413,Dendrocalamus hamiltonii,Thulo Tama,8,7.3,1.5,13.5,15,48,1.8,NA,247,,20.715,2.875,2.127,25.717
+62,"Gundu, Bhaktapur",,7,30,L1,"Gundu, Bhaktapur-L1",413,Dendrocalamus hamiltonii,Thulo Tama,9.8,9.6,1.5,16.5,19,68,1.3,NA,248,,26.315,2.9,1.945,31.16
+62,"Gundu, Bhaktapur",,8,30,L2,"Gundu, Bhaktapur-L2",413,Dendrocalamus hamiltonii,Thulo Tama,9.7,9.5,1.5,16,19,67,1.2,NA,249,,28.7,3.15,2.34,34.19
+62,"Gundu, Bhaktapur",,9,30,L3,"Gundu, Bhaktapur-L3",413,Dendrocalamus hamiltonii,Thulo Tama,9.1,8.5,1.5,14.5,17,56,1.7,NA,250,,29.87,3.215,2.445,35.53
+63,"Suryabinayak, Bhaktapur",,1,30,S1,"Suryabinayak, Bhaktapur-S1",413,Dendrocalamus hamiltonii,Thulo Tama,6,5.5,1.5,12.4,13.5,39,1.6,NA,251,,22.3,1.915,0.935,25.15
+63,"Suryabinayak, Bhaktapur",,2,30,S2,"Suryabinayak, Bhaktapur-S2",413,Dendrocalamus hamiltonii,Thulo Tama,6,5.7,1.5,13,14.4,42,1.7,NA,252,,24.255,2.075,1.435,27.765
+63,"Suryabinayak, Bhaktapur",,3,30,M1,"Suryabinayak, Bhaktapur-M1",413,Dendrocalamus hamiltonii,Thulo Tama,8.1,7.1,2,15.4,17.3,52,2.1,NA,253,,31.4,3.85,1.135,36.385
+63,"Suryabinayak, Bhaktapur",,4,30,M2,"Suryabinayak, Bhaktapur-M2",413,Dendrocalamus hamiltonii,Thulo Tama,7.2,6.6,1.5,13,15.5,48,2,NA,254,,29.185,3.735,1.5,34.42
+63,"Suryabinayak, Bhaktapur",,5,30,L1,"Suryabinayak, Bhaktapur-L1",413,Dendrocalamus hamiltonii,Thulo Tama,11.1,9.9,2.5,16.7,19.4,61,2.3,NA,255,,55.715,4.09,2.15,61.955
+63,"Suryabinayak, Bhaktapur",,6,30,L2,"Suryabinayak, Bhaktapur-L2",413,Dendrocalamus hamiltonii,Thulo Tama,9.2,8.5,2,17.5,19.4,65,2.1,NA,256,,38.355,3.115,1.43,42.9
+64,Kavre,,1,30,S1,Kavre-S1,405,Bambusa cupulata,Mal bans,5.2,4.8,1.1,9.9,12.3,34,1.4,NA,257,,10.325,1.375,0.97,12.67
+64,Kavre,,2,30,S2,Kavre-S2,405,Bambusa cupulata,Mal bans,5.3,5.1,0.9,10.3,11.7,31,1.3,NA,258,,12.65,2.565,1.125,16.34
+64,Kavre,,3,30,M1,Kavre-M1,405,Bambusa cupulata,Mal bans,7.7,7.3,1.8,12.4,14.2,34,1.5,NA,259,,19.42,2.935,1.74,24.095
+64,Kavre,,4,30,M2,Kavre-M2,405,Bambusa cupulata,Mal bans,6.4,6.1,1.2,9.5,11.2,32,1.2,NA,260,,13.35,2.135,0.895,16.38
+64,Kavre,,5,30,L1,Kavre-L1,405,Bambusa cupulata,Mal bans,8.8,8.3,3,12.3,14.5,37,1.8,NA,261,,53.4,5.635,5.48,64.515
+64,Kavre,,6,30,L2,Kavre-L2,405,Bambusa cupulata,Mal bans,9.2,8.6,2.2,13.5,16.7,41,1.8,NA,262,,33.2,2.15,3.155,38.505
+65,Udaypur,,1,30,S1,Udaypur-S1,405,Bambusa cupulata,Mal bans,5,5.1,1.4,13.8,15,37,1.1,NA,263,,14.5,2.1,0.665,17.265
+65,Udaypur,,2,30,S2,Udaypur-S2,405,Bambusa cupulata,Mal bans,5.1,5.1,0.8,11.7,12.3,24,0.9,NA,264,,11.7,1.8,0.685,14.185
+65,Udaypur,,3,30,S3,Udaypur-S3,405,Bambusa cupulata,Mal bans,5.1,4.9,0.7,13.6,14,25,1,NA,265,,12.75,1.7,0.67,15.12
+65,Udaypur,,4,30,M1,Udaypur-M1,405,Bambusa cupulata,Mal bans,6.7,6.7,1,11,12.4,27,1,NA,266,,19.8,1,1.2,22
+65,Udaypur,,5,30,M2,Udaypur-M2,405,Bambusa cupulata,Mal bans,5.9,5.8,0.5,9.5,10,22,0.9,NA,267,,13.5,1.5,0.85,15.85
+65,Udaypur,,6,30,M3,Udaypur-M3,405,Bambusa cupulata,Mal bans,7.4,7.3,0.9,15.1,16,29,1.3,NA,268,,31.5,3.8,0.6,35.9
+65,Udaypur,,7,30,L1,Udaypur-L1,405,Bambusa cupulata,Mal bans,7.4,7.3,1.6,14.2,16.2,36,1.4,NA,269,,29.5,2.9,2.7,35.1
+65,Udaypur,,8,30,L2,Udaypur-L2,405,Bambusa cupulata,Mal bans,7.9,7.7,1,14.5,16.3,31,1.2,NA,270,,27.5,2.4,2.5,32.4
+65,Udaypur,,9,30,L3,Udaypur-L3,405,Bambusa cupulata,Mal bans,8.4,8.4,1.2,15.1,16.4,41,1.3,NA,271,,29.7,3.8,0.85,34.35
+66,Panchthar,,1,15,S1,Panchthar-S1,404,Bambusa nepalensis,Choya Bans,8.9,8.8,2.1,16.7,17,41,1.5,NA,272,,24.015,1.9,5.2,31.115
+66,Panchthar,,2,13.5,S2,Panchthar-S2,404,Bambusa nepalensis,Choya Bans,6.6,6.4,1.2,13.8,14.2,32,1.5,NA,273,,16.155,0.76,0.87,17.785
+66,Panchthar,,3,12,S3,Panchthar-S3,404,Bambusa nepalensis,Choya Bans,5.7,5.5,0.7,9.7,10.5,26,2.5,NA,274,,6.902,0.62,0.68,8.202
+67,"Sarangkot, Kaski",,1,30,S1,"Sarangkot, Kaski-S1",406,Bambusa nutans,Taru Bans,6,5.9,1,12,12.1,51,0.9,NA,275,,13.8,4.1,2.2,20.1
+67,"Sarangkot, Kaski",,2,30,S2,"Sarangkot, Kaski-S2",406,Bambusa nutans,Taru Bans,5.8,5.6,0.8,11.5,11.3,47,0.6,NA,276,,12.5,3.2,1.9,17.6
+67,"Sarangkot, Kaski",,3,30,S3,"Sarangkot, Kaski-S3",406,Bambusa nutans,Taru Bans,6.9,6.1,0.5,12.5,13.2,45,1.1,NA,277,,17.5,3.8,2.8,24.1
+67,"Sarangkot, Kaski",,4,30,S4,"Sarangkot, Kaski-S4",406,Bambusa nutans,Taru Bans,5.6,5.3,1.9,10.3,11.4,42,0.8,NA,278,,11.2,2.6,1.7,15.5
+68,bhojpur,,1,10,S1,bhojpur-S1,414,Dendrocalamus hookeri,Bhalu/Dhungre,10.4,9.3,1.3,14.8,16.1,41,0.4,NA,279,,20.27,2.64,1.24,24.15
+68,bhojpur,,2,20,S2,bhojpur-S2,414,Dendrocalamus hookeri,Bhalu/Dhungre,14.2,11.8,2.1,16,18.1,46,0.5,NA,280,,44.75,6.95,3.3,55
+68,bhojpur,,3,25,S3,bhojpur-S3,414,Dendrocalamus hookeri,Bhalu/Dhungre,14.1,13.1,5.2,17.9,23.1,54,0.6,NA,281,,57.38,5.5,2.8,65.68
+68,bhojpur,,4,10,S4,bhojpur-S4,414,Dendrocalamus hookeri,Bhalu/Dhungre,10.9,9.8,1.7,15.9,17.6,43,0.3,NA,282,,33.19,3.2,1.9,38.29
+68,bhojpur,,5,10,S5,bhojpur-S5,414,Dendrocalamus hookeri,Bhalu/Dhungre,8.5,7.5,2.6,12.5,15.1,40,0.3,NA,283,,16.41,3.6,2.7,22.71
+68,bhojpur,,6,15,S6,bhojpur-S6,414,Dendrocalamus hookeri,Bhalu/Dhungre,6.9,6.4,5.2,10,15.2,37,0.3,NA,284,,13.5,2.9,3.3,19.7
+69,Nuwakot,,1,30,S1,Nuwakot-S1,414,Dendrocalamus hookeri,Tama Bans,6.3,6.2,4.3,12.8,17.3,49,0.4,NA,285,,9.25,0.13,0.525,9.905
+69,Nuwakot,,2,30,S2,Nuwakot-S2,414,Dendrocalamus hookeri,Tama Bans,6.1,6.1,2.6,11.3,14.4,33,0.4,NA,286,,9.12,0.135,0.42,9.675
+69,Nuwakot,,3,30,M1,Nuwakot-M1,414,Dendrocalamus hookeri,Tama Bans,7.4,7.4,3.8,14.6,19.1,52,0.7,NA,287,,15.85,0.145,0.493,16.488
+69,Nuwakot,,4,30,M2,Nuwakot-M2,414,Dendrocalamus hookeri,Tama Bans,8,8,4.3,14.2,18.8,55,0.6,NA,288,,17.71,0.415,1.02,19.145
+69,Nuwakot,,5,30,L1,Nuwakot-L1,414,Dendrocalamus hookeri,Tama Bans,9.5,9.5,3.6,15.6,19.2,47,0.6,NA,289,,23.08,1.43,0.735,25.245
+69,Nuwakot,,6,30,L2,Nuwakot-L2,414,Dendrocalamus hookeri,Tama Bans,9.4,9.4,3.4,14.8,18.3,48,0.65,NA,290,,20.53,2.15,0.24,22.92
+70,Dhankuta,,1,55,S1,Dhankuta-S1,414,Dendrocalamus hookeri,Bhalu/Dhungre,18.6,16.8,2.6,16.3,18.9,66,0.8,NA,291,,60.53,4.9,5.2,70.63
+70,Dhankuta,,2,40,S2,Dhankuta-S2,414,Dendrocalamus hookeri,Bhalu/Dhungre,9.4,8.6,0.4,8.8,9.2,35,0.4,NA,292,,12.33,2.8,3.7,18.83
+70,Dhankuta,,3,48,S3,Dhankuta-S3,414,Dendrocalamus hookeri,Bhalu/Dhungre,14.7,13.2,1.7,12.8,14.5,51,0.4,NA,293,,35.3,3.7,4.9,43.9
+70,Dhankuta,,4,10,S4,Dhankuta-S4,414,Dendrocalamus hookeri,Bhalu/Dhungre,10,9.9,3.4,14,17.4,53,0.4,NA,294,,22.79,3.4,4.2,30.39
+70,Dhankuta,,5,42,S5,Dhankuta-S5,414,Dendrocalamus hookeri,Bhalu/Dhungre,19.4,16.7,1.6,17.1,18.7,61,0.8,NA,295,,75.41,5.2,6.3,86.91
+71,Gorkha,,1,30,S1,Gorkha-S1,406,Bambusa nutans,Taru bans,5.7,5.2,1.4,14.5,17.3,56,0.6,NA,296,,18.55,3.26,1.09,22.9
+71,Gorkha,,2,30,S2,Gorkha-S2,406,Bambusa nutans,Taru bans,5.4,5.1,1.3,13.9,16.8,46,0.6,NA,297,,16.83,3.08,0.91,20.82
+71,Gorkha,,3,30,M1,Gorkha-M1,406,Bambusa nutans,Taru bans,7,6.9,1.8,17.7,20.3,63,0.55,NA,298,,31.2,4.3,0.83,36.33
+71,Gorkha,,4,30,M2,Gorkha-M2,406,Bambusa nutans,Taru bans,6.7,6.6,2,17,19.9,58,0.55,NA,299,,27.45,3.78,0.79,32.02
+71,Gorkha,,5,30,L1,Gorkha-L1,406,Bambusa nutans,Taru bans,8.2,8,1,20.3,23.2,64,0.7,NA,300,,43.36,4.73,1.14,49.23
+71,Gorkha,,6,30,L2,Gorkha-L2,406,Bambusa nutans,Taru bans,8.5,8.4,1.9,20.5,24.7,68,0.6,NA,301,,40.52,3.86,0.86,45.24
+72,Siraha,,1,10,S1,Siraha-S1,407,Bambusa tulda,Jhapta/ Chab Bans,5.3,5.1,0.7,8,8.7,43,0.3,NA,302,,7.2,3.37,1.25,11.82
+72,Siraha,,2,10,S2,Siraha-S2,407,Bambusa tulda,Jhapta/ Chab Bans,5.1,4.8,0.2,7.7,7.9,35,0.3,NA,303,,6.2,3.67,1.7,11.57
+72,Siraha,,3,15,S3,Siraha-S3,407,Bambusa tulda,Jhapta/ Chab Bans,5.5,5.3,1.2,8,9.7,41,0.3,NA,304,,9.6,4.1,2.3,16
+72,Siraha,,4,10,S4,Siraha-S4,407,Bambusa tulda,Jhapta/ Chab Bans,4.5,4.3,0.8,7,7.8,39,0.3,NA,305,,5.34,3.9,1.8,11.04
+72,Siraha,,5,15,S5,Siraha-S5,407,Bambusa tulda,Jhapta/ Chab Bans,6.8,6.3,1.3,8.5,9.8,45,0.4,NA,306,,12.7,5.3,3.7,21.7
+72,Siraha,,6,22,S6,Siraha-S6,407,Bambusa tulda,Jhapta/ Chab Bans,7.5,7.3,0.7,10.9,11.6,51,0.6,NA,307,,18.2,6.8,4.3,29.3
+72,Siraha,,7,12,S7,Siraha-S7,407,Bambusa tulda,Jhapta/ Chab Bans,7.4,7,1,12.2,13.2,54,0.4,NA,308,,18.51,6.2,3.8,28.51
+72,Siraha,,8,10,S8,Siraha-S8,407,Bambusa tulda,Jhapta/ Chab Bans,7.7,7.2,0.3,10.8,11.1,51,0.3,NA,309,,16.21,7,4.2,27.41
+72,Siraha,,9,12,S9,Siraha-S9,407,Bambusa tulda,Jhapta/ Chab Bans,5.5,5,0.4,7.2,7.6,41,0.2,NA,310,,6.85,2.8,2,11.65
+72,Siraha,,10,15,S10,Siraha-S10,407,Bambusa tulda,Jhapta/ Chab Bans,6.5,6.4,1.6,10,11.6,52,0.3,NA,311,,14.5,8.1,4.7,27.3
+72,Siraha,,11,14,S11,Siraha-S11,407,Bambusa tulda,Jhapta/ Chab Bans,8.1,7.5,1.2,10.3,11.3,53,0.4,NA,312,,19.6,7.8,6.2,33.6
+72,Siraha,,12,12,S12,Siraha-S12,407,Bambusa tulda,Jhapta/ Chab Bans,8.2,7.6,0.7,11.2,11.9,58,0.4,NA,313,,21.1,7.6,5.9,34.6
+73,Saptari,,1,10,S1,Saptari-S1,407,Bambusa tulda,Jhapta/ Chab Bans,8.5,8,1.6,12,13.6,44,0.3,NA,314,,20.65,5.15,3.3,29.1
+73,Saptari,,2,10,S2,Saptari-S2,407,Bambusa tulda,Jhapta/ Chab Bans,8.3,7.5,1.2,14.5,15.7,46,0.5,NA,315,,18.29,6.3,4.6,29.19
+73,Saptari,,3,12,S3,Saptari-S3,407,Bambusa tulda,Jhapta/ Chab Bans,6.6,6,1.7,11.2,12.9,47,0.4,NA,316,,12.05,4.7,3.1,19.85
+73,Saptari,,4,12,S4,Saptari-S4,407,Bambusa tulda,Jhapta/ Chab Bans,7.9,7.2,1,12.3,13.3,52,0.4,NA,317,,15.9,6.1,4.7,26.7
+73,Saptari,,5,25,S5,Saptari-S5,407,Bambusa tulda,Jhapta/ Chab Bans,8.6,8.4,0.7,12.8,13.5,53,0.5,NA,318,,20.9,9.3,6.1,36.3
+73,Saptari,,6,35,S6,Saptari-S6,407,Bambusa tulda,Jhapta/ Chab Bans,10.9,9.2,1.9,16.2,18.1,66,0.6,NA,319,,15.19,7.2,5.9,28.29
+73,Saptari,,7,10,S7,Saptari-S7,407,Bambusa tulda,Jhapta/ Chab Bans,6.1,5.8,1.3,12.3,13.6,45,0.4,NA,320,,10.9,3.1,1.8,15.8
+73,Saptari,,8,10,S8,Saptari-S8,407,Bambusa tulda,Jhapta/ Chab Bans,5.8,5.5,0.1,11.1,11.2,45,0.3,NA,321,,10.3,2.9,2,15.2
+74,Dhanusha,,1,18,S1,Dhanusha-S1,407,Bambusa tulda,Jhapta/ Chab Bans,9,8.9,0.6,15,15.6,54,0.6,NA,322,,30.63,6.2,5.4,42.23
+74,Dhanusha,,2,25,S2,Dhanusha-S2,407,Bambusa tulda,Jhapta/ Chab Bans,10.4,9.7,2.1,13.6,15.7,58,0.5,NA,323,,34.8,7.8,6.2,48.8
+74,Dhanusha,,3,20,S3,Dhanusha-S3,407,Bambusa tulda,Jhapta/ Chab Bans,9.4,9.3,1.2,16.8,17,66,0.5,NA,324,,29.7,7,6,42.7
+74,Dhanusha,,4,55,S4,Dhanusha-S4,407,Bambusa tulda,Jhapta/ Chab Bans,10.2,9.2,1.7,14.2,15.9,61,0.5,NA,325,,30.3,6.8,5.9,43
+74,Dhanusha,,5,65,S5,Dhanusha-S5,407,Bambusa tulda,Jhapta/ Chab Bans,9.1,9.6,1.2,13.8,15,67,0.5,NA,326,,32.2,7.4,5.8,45.4
+74,Dhanusha,,6,10,S6,Dhanusha-S6,407,Bambusa tulda,Jhapta/ Chab Bans,7.2,6.8,0.6,14,14.6,52,0.3,NA,327,,15.9,2.5,1.4,19.8
+74,Dhanusha,,7,10,S7,Dhanusha-S7,407,Bambusa tulda,Jhapta/ Chab Bans,7.6,7.3,1,13.6,14.6,48,0.4,NA,328,,17.1,3.2,2,22.3
+74,Dhanusha,,8,20,S8,Dhanusha-S8,407,Bambusa tulda,Jhapta/ Chab Bans,7.6,7.4,1.9,12.7,14.6,71,0.4,NA,329,,16.3,4.1,1.9,22.3
+74,Dhanusha,,9,15,S9,Dhanusha-S9,407,Bambusa tulda,Jhapta/ Chab Bans,7,7,1.2,14.7,15.9,72,0.4,NA,330,,17.1,6.3,2.1,25.5
+74,Dhanusha,,10,20,S10,Dhanusha-S10,407,Bambusa tulda,Jhapta/ Chab Bans,7.3,7.2,1.6,14.7,16.3,72,0.3,NA,331,,15.8,5.2,2,23
+74,Dhanusha,,11,10,S11,Dhanusha-S11,407,Bambusa tulda,Jhapta/ Chab Bans,8.5,8.3,1.3,12.6,13.9,66,0.4,NA,332,,32.3,7.9,6.3,46.5
+74,Dhanusha,,12,10,S12,Dhanusha-S12,407,Bambusa tulda,Jhapta/ Chab Bans,8.9,8.8,2,14.9,16.9,58,0.7,NA,333,,33.1,6.8,5.9,45.8
+74,Belbari Research plot,,1,30,S1,Belbari Research plot-S1,407,Bambusa tulda,Jhapta/ Chab Bans,5.4,5.3,1,17.7,19.2,45,1.4,NA,334,,22.5,3.4,0.715,26.615
+74,Belbari Research plot,,2,30,S2,Belbari Research plot-S2,407,Bambusa tulda,Jhapta/ Chab Bans,6.7,6.7,1.2,15.9,16.8,39,1.2,NA,335,,26.5,7.1,2.36,35.96
+74,Belbari Research plot,,3,30,M1,Belbari Research plot-M1,407,Bambusa tulda,Jhapta/ Chab Bans,8.7,8.2,1.1,18.8,18.4,47,1.6,NA,336,,41.36,8.3,1.5,51.16
+74,Belbari Research plot,,4,30,M2,Belbari Research plot-M2,407,Bambusa tulda,Jhapta/ Chab Bans,8.1,8.7,0.9,19.8,19.2,40,1.5,NA,337,,39.52,5.89,2.6,48.01
+74,Belbari Research plot,,5,30,M3,Belbari Research plot-M3,407,Bambusa tulda,Jhapta/ Chab Bans,7.2,7.1,2.1,16.8,19,51,1.3,NA,338,,33.9,5.1,0.55,39.55
+74,Belbari Research plot,,6,30,L1,Belbari Research plot-L1,407,Bambusa tulda,Jhapta/ Chab Bans,10.7,10.5,0.9,20.1,21.9,58,1.8,NA,339,,52.3,9.2,1.6,63.1
+74,Belbari Research plot,,7,30,L2,Belbari Research plot-L2,407,Bambusa tulda,Jhapta/ Chab Bans,10.1,10.2,1.7,19.4,21.6,53,2,NA,340,,54.6,17.8,2.4,74.8
+74,Belbari Research plot,,8,30,L3,Belbari Research plot-L3,407,Bambusa tulda,Jhapta/ Chab Bans,9.4,9.5,1.1,20.7,22,55,1.6,NA,341,,49.7,14.5,3.46,67.66
+74,Belbari Research plot,,9,30,L4,Belbari Research plot-L4,407,Bambusa tulda,Jhapta/ Chab Bans,9.1,9.4,2.2,18.7,20.4,53,2.3,NA,342,,45.3,10.66,1.353,57.313
+75,Belbari Research plot,,1,30,S1,Belbari Research plot-S1,403,Bambusa balcooa,Dhanu Bans,11.6,11.1,0,16,16.5,41,1.8,NA,343,,22.5,3.4,0.715,26.615
+75,Belbari Research plot,,2,30,S2,Belbari Research plot-S2,403,Bambusa balcooa,Dhanu Bans,10,9.5,2.7,20.1,22.7,57,1.7,NA,344,,26.5,7.1,2.36,35.96
+75,Belbari Research plot,,3,30,S3,Belbari Research plot-S3,403,Bambusa balcooa,Dhanu Bans,9.7,9.7,0.7,18.3,19.4,53,1.7,NA,345,,47.1,13.4,3.2,63.7
+75,Belbari Research plot,,4,30,S4,Belbari Research plot-S4,403,Bambusa balcooa,Dhanu Bans,11.8,11.2,2.7,15.6,17.3,44,1.6,NA,346,,38.8,12.3,2.4,53.5
+75,Belbari Research plot,,5,30,S5,Belbari Research plot-S5,403,Bambusa balcooa,Dhanu Bans,7.3,7.4,1.8,12.9,15,39,1.2,NA,347,,26.5,1.65,1.4,29.55
+76,Belbari Research plot,,1,30,S1,Belbari Research plot-S1,406,Bambusa nutans,Taru Bans,8.9,8.9,0.7,17,18.1,48,1.3,NA,348,,22.5,3.4,0.715,26.615
+76,Belbari Research plot,,2,30,S2,Belbari Research plot-S2,406,Bambusa nutans,Taru Bans,7.4,7,2.1,13.2,15.6,40,1.3,NA,349,,26.5,7.1,2.36,35.96
+76,Belbari Research plot,,3,30,S3,Belbari Research plot-S3,406,Bambusa nutans,Taru Bans,5.4,5.2,0.6,15.2,14.6,33,1.2,NA,350,,47.1,13.4,3.2,63.7
+76,Belbari Research plot,,4,30,S4,Belbari Research plot-S4,406,Bambusa nutans,Taru Bans,7,6.6,1.3,17.2,16,43,1.3,NA,351,,38.8,12.3,2.4,53.5
+77,Belbari Research plot,,1,30,S1,Belbari Research plot-S1,405,Bambusa cupulata,Mal bans,9,8.6,1.1,14.1,15.4,35,1.4,NA,352,,22.5,3.4,0.715,26.615
+78,3-55-Y-4,,1,30,,3-55-Y-4-2,405,Bambusa cupulata,Mal bans,5.3,5,0,12.4,14,40,1.1,NA,353,,16.2,1.8,1.8,19.8
+78,3-55-Y-4,,2,30,,3-55-Y-5-3,405,Bambusa cupulata,Mal bans,6.8,6.5,1,15.1,17.5,42,1.4,NA,354,,14.7,2,1.5,18.2
+78,Okhaldunga,,1,35,S1,Okhaldunga-S1,414,Dendrocalamus hookeri,Bhalu Bans,5.1,4.7,2.5,9.3,12.1,30,1.1,NA,355,,18.8,2.8,3,24.6
+78,Okhaldunga,,2,35,S2,Okhaldunga-S2,414,Dendrocalamus hookeri,Bhalu Bans,7.8,7.7,1.5,10.8,14.5,38,1.5,NA,356,,23.3,3.5,3,29.8
+78,Okhaldunga,,3,35,S3,Okhaldunga-S3,414,Dendrocalamus hookeri,Bhalu Bans,10,9.1,2,11.3,14.7,41,2.9,NA,357,,33.2,5.9,4.2,43.3
+78,Okhaldunga,,4,35,S4,Okhaldunga-S4,414,Dendrocalamus hookeri,Bhalu Bans,10.1,9.8,2.8,14.3,18.1,41,2.5,NA,358,,30.5,2,3.1,35.6
+78,Okhaldunga,,5,35,S5,Okhaldunga-S5,414,Dendrocalamus hookeri,Bhalu Bans,10.3,19.8,1.5,16.6,19,44,2.8,NA,359,,35,2.3,3.5,40.8
+78,Okhaldunga,,6,35,S6,Okhaldunga-S6,414,Dendrocalamus hookeri,Bhalu Bans,7.9,7.5,3,12,14.5,36,1.5,NA,360,,24.7,1.9,2.8,29.4
+78,Okhaldunga,,7,35,S7,Okhaldunga-S7,414,Dendrocalamus hookeri,Bhalu Bans,5.8,5.5,0.7,13.2,15,34,1.1,NA,361,,19.1,1.8,2.5,23.4
+78,Okhaldunga,,8,35,S8,Okhaldunga-S8,414,Dendrocalamus hookeri,Bhalu Bans,11.5,11.1,2.1,16.3,19,35,2.4,NA,362,,37.7,2,3,42.7
+78,Okhaldunga,,9,35,S9,Okhaldunga-S9,414,Dendrocalamus hookeri,Bhalu Bans,10.5,10.1,1.7,15.8,18.5,32,2.5,NA,363,,33.8,2.5,2.5,38.8
+78,Okhaldunga,,10,35,S10,Okhaldunga-S10,414,Dendrocalamus hookeri,Bhalu Bans,7.7,7.5,1,14.7,18,32,1.7,NA,364,,24,1.7,2,27.7
+78,Okhaldunga,,11,35,S11,Okhaldunga-S11,414,Dendrocalamus hookeri,Bhalu Bans,6.5,6.2,1.5,12.1,15,40,1.5,NA,365,,22.7,2.1,3.7,28.5
+78,Okhaldunga,,12,35,S12,Okhaldunga-S12,414,Dendrocalamus hookeri,Bhalu Bans,9.9,9.5,0.8,16.2,17.3,42,2.2,NA,366,,30.1,2.7,3.5,36.3
+78,Okhaldunga,,13,35,S13,Okhaldunga-S13,414,Dendrocalamus hookeri,Bhalu Bans,10.8,10.4,2.2,17.8,20,44,2.8,NA,367,,28.3,2.1,1.7,32.1
+78,Okhaldunga,,14,35,S14,Okhaldunga-S14,414,Dendrocalamus hookeri,Bhalu Bans,7.9,7.5,0.5,13.7,15.8,36,1.7,NA,368,,25.5,1.7,1.8,29
+78,Okhaldunga,,15,35,S15,Okhaldunga-S15,414,Dendrocalamus hookeri,Bhalu Bans,6.8,6.2,1,12.3,15,34,1.3,NA,369,,23,2.7,2,27.7

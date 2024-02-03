@@ -1,0 +1,82 @@
+---
+output:
+  pdf_document: default
+  rticles::elsevier_article: default
+  html_document: default
+---
+
+---
+title: 'Morphometric Variations in Nepalese Bamboo: Investigating Diameter-Length Relationships in Two Major Groups'
+
+author:
+  - name: Sushila Sapkota
+    email: sapkotasushila2001@gmail.com
+    affiliation: Institute of Forestry
+    footnote: 1
+  - name: Prakash Lamichhane
+    email: forester.prakash@gmail.com
+    affiliation: Ministry of Forest and Environment
+    correspondingauthor: true
+    footnote: 2
+  - name: Sandeep Mahara 
+    email: maharas450@gmail.com
+    affiliation: Institute of Forestry
+    footnote: 1
+  - name: Ananda Khadka
+    email: anandakhadka@gmail.com
+    affiliation: Forest Research and Training Center, Nepal
+    footnote: 3
+  - name: Suman Bhattarai
+    email: sumancha004@gmail.com
+    affiliation: Institute of Forestry
+    footnote: 1
+address:
+  - code: Institute of Forestry
+    organization: Tribhuwan University
+    addressline: Pokhara - 15, Hariyokharka, Kaski
+    city: Pokhara,
+    state: Gandaki
+    postcode: 33700
+    country: Nepal
+  - code: Ministry of Forest and Environment
+    organization: Ministry of Forest and Environment
+    addressline: Kathmandu-11, Singha Durbar
+    postcode: 44600
+    city: Kathmandu,
+    country: Nepal
+  - code: Forest Research and Training Center
+    organization: Ministry of Forest and Environment
+    addressline: Kathmandu-11, Singha Durbar
+    postcode: 44600
+    city: Kathmandu,
+    country: Nepal
+footnote:
+  - code: 1
+    text: "This is the first author footnote."
+  - code: 2
+    text: "Another author footnote."
+abstract:
+  Bamboo belongs to the Poaceae (Gramineae) family of grasses and is well known for its ecological services as well as engineering services. Quanntifying the dimensions of the bamboo shoot is crucial for further valuation of each of the service it provides. It is difficult to measure, especially the length of the bamboo, as length is a complex dimension of the bamboo plant. There were no prior research records depicting the correlation of diameter and height variables in Nepal.The research provides the measurment of the height (length) of the bamboo for its quantification in terms of biomass as well as its carbon content. We examined the relationship between the diameter and length of the Bambusa group and the Dendrocalamus group found in Nepal. Field data was taken from 650 sample plots (circular plots with a 56.42m radius) established by the Forest Research and Training Center (FRTC), covering 66 districts of Nepal. 
+  
+  A multiple linear regression model was developed where 80% of the data was considered as training data and the rest as testing data. The length served as an independent variable, whereas diameter at breast height (dbh), base, and height up to culmination were used as independent variables. We used the Shapiro Wilk test to check the normality of the dataset, and the classical Levene’s test to test the variance of the data sets used for predictions. The regression coefficients were tested using a Welch’s two-sample t-test. From the results, the best fitting equation for the Bambusa group was 0.907 * ht_culmination + 0.248 * dbh + 0.8078 * base + 0.141, and for the Dendrocalamus group was 0.978 * ht_culmination + (-0.025) * dbh + 0.505 * base + 1.745. The best results were obtained when all three variables were used as independent, i.e., dbh, base, and height of culmination. The study opens up the space for further research focused on volume calculation of culms, biomass estimation, etc.
+
+keywords: 
+  - Bamboo
+  - Biometrics
+  - Linear Regression
+  - Diameter- Height Relationship
+
+journal: "An awesome journal"
+date: "`r Sys.Date()`"
+classoption: preprint, 3p, authoryear
+bibliography: bamboo_modelling.bib
+linenumbers: false
+numbersections: true
+
+# Use a CSL with `citation_package = "default"`
+csl: https://www.zotero.org/styles/elsevier-harvard
+output: 
+  rticles::elsevier_article:
+    keep_tex: true
+    citation_package: natbib
+---
