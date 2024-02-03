@@ -209,6 +209,7 @@ The descriptive statistics for this study included mean, maximum, and minimum va
 
 Figure 3 explains that the length of the bamboo and the culmination height have the highest correlation, i.e., 0.9. As we know, there is a strong correlation between d30 and dbh, i.e., 0.96, so we used only the dbh as there will be higher multicollinearity between the given variables (i.e., there is no significant difference in using dbh and d30), and with the given multicollinearity, the model so formed tends to be complex, and thus the d30 was not used for further analysis. We started to test the model first with the dbh as independent variable and the length(m) as dependent variable. Similarly, the correlation between dbh and base was found to be 0.15, with the height of culmination being 0.68 and with the length to be 0.70. For better results, we kept on testing the model by adding one more variable, i.e., the height up to the culmination and the base. Following are the consecutive models prepared by adding one more variable, respectively.
 
+
 ### Fitting models
 
 #### Simple Linear Model for Bambusa Species
@@ -218,6 +219,7 @@ Model result for Bambusa Species.
 
 
 ## Discussion
+
 ### Testing the statistical differences in the results of two different models by applying the same independent variables to them
 
 To test the statistical differences between the results of these two sets of predictions, we applied the same independent variables. The descriptive statistics employed in this study includes the average, maximum, and minimum values of diameter at breast height (dbh), height of culmination, and length.
