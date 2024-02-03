@@ -159,6 +159,7 @@ The formula for the Pearson correlation coefficient is given by:
 
 
 $$[ r = \frac{{\sum_{i=1}^{n} (X_i - \bar{X})(Y_i - \bar{Y})}}{{\sqrt{\sum_{i=1}^{n} (X_i - \bar{X})^2} \sqrt{\sum_{i=1}^{n} (Y_i - \bar{Y})^2}}} ]..................                          (i)$$
+
 ### Fitting the models
 
 Primarily, the height and diameter have a linear relationship, whereas some of the cases have the effect of other variables like climate, topography and other external factors.  In the case of bamboo and its nature of leaning and the portion of length after the culmination height, we collected data related to culmination height and base distance (distance between seeding point and the base of culmination height). So, we had three parameters to predict the total length of the bamboo culm.
