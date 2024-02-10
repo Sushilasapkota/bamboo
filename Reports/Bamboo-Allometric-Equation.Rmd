@@ -132,7 +132,7 @@ Since the data used here was collected from destructive sampling, the bamboo cul
 
 ## Data structure and status
 
-As mentioned by Das (2002) and Ghimire (2008) in Nepal, a total of 12 genera and over 53 distinct species of bamboo have been identified. Among them, the major species found are of Dendrocalamus and Bambusa category(Ghimire, 2008, Ayer et al., 2023). The research mainly focused on seven major species found in Nepal. The destructive sampling was carried out for these seven species. The seven major species included are:
+As mentioned by Das (2002) and Ghimire (2008) in Nepal, a total of 12 genera and over 53 distinct species of bamboo have been identified. Among them, the major species found are of Dendrocalamus and Bambusa category(Ghimire, 2008, Ayer et al., 2023). The research mainly focused on seven major species found in Nepal. The destructive sampling was carried out for these seven species. The seven major species included in this study are:
 
 a)	Bambusa balcooa (Dhanu/ Ghar/ Harouti Bans)
 
