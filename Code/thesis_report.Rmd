@@ -1,0 +1,765 @@
+---
+title: Relation between Diamter and length of two major groups of Bamboo of Nepal.
+author: "Sushila Sapkota"
+date: "2023-07-04"
+output:
+  pdf_document:
+    toc_depth: 4
+    fig_caption: yes
+    number_sections: yes
+  word_document:
+    toc_depth: '4'
+bibliography: citations.bib
+csl: "apa-6th-edition.csl"
+---
+
+```{=tex}
+\newpage
+\tableofcontents
+\listoftables
+\listoffigures
+```
+\newpage
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Abstract
+
+Bamboo is a member of the Poaceae (Gramineae) family of grasses and well known for their ecological services, such as erosion control, riverbank protection, landslide prevention, land rehabilitation, soil moisture retention, biodiversity preservation, carbon sequestration, etc. Regression analysis is commonly used to derive forest models from extensive growth records. Although, seven major bamboo species are found in Nepal, limited studies have been done over the last century. This research focuses on examining the relationship between the diameter and length of Bambusa group and Dendrocalamus group found in Nepal. The study is based on the hypothesis whether there is any significant relationship between diameter and length of two bamboo groups or not. Field data is taken from 650 sample plots (circular plots with 56.42m radius) established by FRTC covering 66 districts of Nepal. Simple linear Regression Model was developed using 80% of data was used as training data and remaining 20% was used as testing data. The length served as independent variable whereas DBH, base and height up to culmination were used as independent variables. Shapiro Wilk test was used to check the normality of data, and Classical Levene's test was used to test variance of data sets used for predictions. Two-way ANOVA was used to test the regression coefficients. From the results, best fitting equation for Bambusa group is 0.907 \* ht_culmination + 0.248 \* dbh + 0.8078 \* base+0.141, and for Dendrocalamus group is 0.978 \* ht_culmination +(-0.025) \* dbh + 0.505\*base+1.745. Best results were obtained when all three variables were used as independent i.e., DBH, base and height of culmination. The study recommends more research on bamboo species such as Volume calculation of Culms, Biomass estimation, etc.
+
+Keywords: Bambusa and Dendrocalamus, Simple Linear Regression Model, Normality, Variance, regression coefficients.
+
+# Background
+
+## Introduction
+
+In order to investigate, comprehend, forecast, or replicate the behavior and features of real-world systems or things, modeling is the process of developing abstracted or simplified representations of those entities or systems[@systems2005].Growth is the rise in dimensions of one or more individuals in a forest stand over time, whereas a model is a simplified representation of some feature of reality[@vanclay1995]. In order to produce streamlined representations of complicated systems, phenomena, or circumstances, modeling is crucial. Without directly dealing with the intricacies of the real world, these models enable us to learn, anticipate, and analyze a variety of scenarios. Science, economics, healthcare, engineering, and social sciences are just a few of the industries that can benefit from modeling[@fritzson2011].Models can be expressed in both verbal (e.g., in a description) and material (e.g., in a diagram or in a scale model)[@vanclay1995]. There are basically 4 types of models as; mental , verbal , physical and mathematical model[@fritzson2011]. A mathematical model is similar to a verbal model, however it is written in a more compact and confusing mathematical language than normal language [@vanclay1995]. An analysis of the relationship between a dependent variable (also known as the result or response variable) and one or more independent variables is done statistically using regression models (also called predictors or explanatory variables)[@belsley2005]. The dependent variable's value is predicted using the values of the independent variables.[@anintro]. Reliable predictions of both current resource levels and the expected resource changes from implementing selected management alternatives are required to develop tools to support informed sustainable forestry decision making[@tenzin2017] . Regression models can be used to spot trends and patterns, anticipate the future, and examine how one or more independent variables affect the dependent variable [@anintro].For forest evaluation and modeling, measurement of tree height (H) and breast height (D) are crucial[@forests]. For accurate regional and global estimations of forest biomass and carbon storage, an enhanced understanding of the H-D relationship is essential because many large-scale studies rely on allometric equations that incorporate the H-D relationship[@feldpausch2011][@gao2016]. A tiny measurement error in height can have a big impact on how much biomass and how much volume is estimated[@pariyar2019]. Different instruments used to measure the height of a plant are Abney's level, Clinometer, Silva Compass, Range finder, Vertex and Transponder,etc [@pariyar2019]. Thus, the predictive relationship between a dependent variable and one or more independent variables is presented by regression models[@solomon1980]. The estimation of the model's parameters, determining the model's goodness-of-fit, and performing hypothesis tests on the regression coefficients all depend critically on variance in linear regression[@fox2015]. This model assumes a linear connection between the dependent variable and the independent variables, is one type of regression model. Logistic regression, polynomial regression, and ridge regression are more varieties of regression models[@anintro].
+
+Bamboo is a rapidly expanding member of the grass family (NBRAN). It has been regarded as "green gold" due to its economic significance and numerous applications in human existence[@bhattacharya2009][@yeasmin2015].It has been widely distributed in Africa, Latin America, and Southeast Asia.Due to its quick growth and therefore high potential for reducing climate change, bamboo is becoming increasingly interesting to ecologists as a significant non-wood forest product and wood substitute. Primarily being used as non-wood forest product and wood substitute it has been extensively employed for a variety of uses[@song2011]. It has been used for millennia in a variety of applications, including building, furniture, paper, and textiles. It is renowned for its strength, flexibility, and durability. Due to its quick growth rate, little care needs, and capacity to rebound after harvesting, bamboo is a resource that is extremely sustainable. It is a great instrument for reducing climate change because it also has a high rate of carbon sequestration. Bamboo has grown in favor as a greener substitute for conventional building materials including wood, steel, and concrete in recent years[@farrelly1996].Both culm and the shoot are equally valuable .The former has exceptional wood characteristics, but the latter is utilized as food[@yen2010]. Bamboo buildings are perfect for usage in disaster-prone areas since they are lightweight, sturdy, and earthquake-resistant. Also, because of their adaptability and eco-friendliness, bamboo goods are growing in popularity in the fashion sector. Active wear, underwear, and childrens clothing can all benefit from bamboo materials' softness, breatheability, and moisture-wicking properties [@farrelly1996]. Due to its strong strength and low weight, bamboo has been extensively used in the production of everyday equipment and traditional building materials. A suitable extraction procedure is needed, though, for the commercial usage of bamboo fibers in composite materials. However due to the challenges involved in extracting long fibers from bamboo culms, only a small number of studies have attempted to produce long and fine bamboo fibers[@zakikhani2017]. Only bamboo farming can guarantee sustained availability [@shanmughavel1996]. Belonging to family Poaceae (Graminae), it grows from tropical, sub-tropical to temperate regions of the world with an uneven distribution based on annual precipitation i.e. can withstand excessive precipitation ranging from 32 to 50 inch[@yeasmin2015], altitude i.e. from just above the sea level up to 4,000 m[@yeasmin2015], soil conditions and temperatures i.e. extreme temperature of about -20 °C [[\@yeasmin2015](NBRAN)] . Here, we're about to develop a regression model for two major bamboo groups of Nepal ie Bambusa sepcies and Dendrocalamus species using the dbh (diameter at breast height) as an independent variable and length in m as a dependent variable.
+
+## Objectives
+
+### General Objective
+
+The overall aim of the research is to create an individual model that predicts the relationship between diameter and height of two major genus(groups) of bamboo ie Bambusa Species and Dendrocalamus Species of Nepal.
+
+### Specific Objective
+
+-To identify the major groups of bamboo of Nepal.
+
+-To collect the data on bamboo resources from different places of Nepal.
+
+-To identify the relationship between diameter and height of an individual culm.
+
+-To give the model that best fits the available data.
+
+### Hypothesis
+
+#### Null Hypothesis;
+
+There is no significant relationship between diameter and height of two major bamboo species ie Bambusa and Dendrocalamus species.
+
+#### Alternative Hypothesis;
+
+There is a significant relationship between diameter and height of two major bamboo species Bambusa and Dendrocalamus species.
+
+## Literature Review
+
+Bamboos are well known for their ecological services, such as erosion control, riverbank protection, landslide prevention, land rehabilitation, soil moisture retention, biodiversity preservation, carbon sequestration, etc. In general they grow from tropical to temperate regions with a variety of climatic conditions[@li2004] [@meena2019]. They are commonly classified as a woody plant because of woody vascular bundle structure. As the plant with the quickest rate of growth on earth with a growth range of 30-100cm per day in a growing season[@zakikhani2017], bamboo is a member of the Poaceae (Gramineae) family of grasses[@tamang2013]. According to several scientists, human activities have a significant impact on where bamboo grows [@boontawee1988][@yeasmin2015]. It is widely distributed in the tropical and subtropical zones between roughly 46°N and 47°S latitude, covering a total area of about 31.5 million ha, and making up about 0.8% of the world's total forested area in 2010 (FAO 2010)[@song2011]. Most bamboo is found in Asia, particularly in the tropics and subtropics, where it is estimated that there are more than $1.8e7$ hectares of bamboo [@yen2010] [@shanmughavel1996] [@singh1999][@embaye2003][@gratani2008][@yen2010]. Although there are bamboos all over the world, the biggest species richness is found in Asia Pacific (China: 626, India: 102, Japan: 84, Myanmar: 75, Malaysia: 50, and few others) and South America (Brazil: 134, Venezuela: 68, Colombia: 56, and few others), while the least species richness is found in Africa (five)[@das2005]. It has been also reported that Europe has no native bamboo species[@yeasmin2015].There are over 110 species of herbaceous bamboo, most of which are found in the Neotropical countries of Brazil, Paraguay, Mexico, and the West Indies. The natural bamboo forest, known as "Tabocais" in Brazil and "Pacales" in Peru, spans an area of about 600,000 ha in those three countries[@filgueir ] [@das2008] [@yeasmin2015]. Among other plants, bamboo has distinctive qualities and a huge variety[@zakikhani2017]. There are around 1250 species and 75 genera of bamboo in the world[@tamang2013].A total of 13 bamboo species are recorded in Nepal[@bista2022]. Young bamboo shoots that are edible are eaten as vegetables locally known as 'tusa' or 'tama'. The varieties of use and its versatility make it to be a perfect source of alternative for timber and food particularly for rural tribe. The primary uses of bamboo are for the construction of homes, scaffolding, fences, garden supports, fAs per [@sharma2011] Bambusa species is found to be used extensively in north-east India mostly for structural purposes and is the tallest, strongest, and most durable type.The plant is prized for its delicious tender shoots, which are mostly used in the food and pickle industries[@sharma2011]. Due to its strong antioxidant property it has been widely used in ayurveda too[@yeasmin2015]. As reported by[@ikeshima1999], it has a lot of phenolic compounds that process different bioactivities [@mu2004]. It is also used to construct guard walls along riverbanks and water features[@yeasmin2015]. Generally Bamboos are found beside waterways in damp, flat alluvial ground up to a height of 1500 meters[@sharma2011]. Dendrocalamus species has a life cycle of roughly 30 years[@bhandawat2019][@bhatt2003], and is a versatile bamboo with many well-known purposes. It also provides cattle with nutritional green food, particularly in the winter, when there is a shortage of vegetation in the hills[@bag2012]. It is a particular 15-25 m high woody bamboo that blooms irregularly as well as profusely in the wild. It is well distributed through the entire Himalayan range especially in the outer hills, such as Siwaliks and Mahabharat Lekh[@stapleton1994][@pattanaik].
+
+A dramatic increase in the study of bamboos has occurred in the last thirty years. However, knowledge of Himalayan taxa has remained inadequate, with only ten species from four genera recorded from Nepal, and lists of Bhutanese species still based essentially upon those known from Sikkim, West Bengal, and Assam[@stapleton1994].Around the world, bamboo has a very diverse genetic makeup, and this genetic variety serves as the foundation for both selection and plant improvement[@yeasmin2015]. Bamboo species differ in their characteristics along their culms and between them as it has different qualities depending on the species and where it is in the culm. It has a substantially lower density and higher strength and stiffness than other plants[@zakikhani2017]. Such distinctive characteristics of bamboo set it apart from the majority of other woody plants[@song2011]. Bamboo grows from seeds and rhizomes and spontaneously reproduces both sexually and asexually[@embaye2003]. Consider culms that are interconnected by a complex network of rhizomes, which promotes the quick asexual reproduction of new culms[@song2011]. Because bamboo's reproductive cycle is excessively lengthy, ranging from 3 to 120 years (Janzen 1976), it is challenging to identify bamboo based solely on its reproductive structure [@bhattacharya2006] [@bhattacharya2009][@yeasmin2015]. All bamboo species can be classified morphologically as monopodial or sympodial ones, and variations in rhizome systems can be seen as adaptations to the climatic conditions to which bamboos are native. Monopodial bamboos are native to temperate climates with cool wet winters, while sympodial bamboos are native to tropical climates with a pronounced dry season[@gratani2008]. The woody or true bamboos are characterized by lignification of culms supporting substantial branch systems, infrequent flowering, and rapid growth of culms from well-developed rhizome systems by synchronous intercalary growth of many pre-formed internodes supported by specialized sheaths [@stapleton1994]. Because of its unique root resprouting regeneration technique and selective cutting utilization, the bamboo forest produces different ecosystem services, such as significant capacity to store carbon particularly when the harvested crops are turned into long-lasting goods, and water and soil conservation, as compared to other types of forests[@song2011]. Additionally, it has the ability to purify waste and has the ability to solve the majority of the issues caused by deforestation[@embaye2003].Tropical species' tight-clumping behavior makes them less susceptible to rhizome drying during prolonged dry seasons[@gratani2008]. Diaphragms, an outer layer, and an interior layer make up the bamboo's hollow cylindrical shape. Vascular bundles are dispersed from the inner to the outer layers of the culm wall in the anatomical structure of bamboo species. Due to the structure of the bamboo culms, density, average size, and quantity of vascular bundles, different bamboo species have different mechanical and physical properties[@zakikhani2017]. Understanding how plants react to shifts in resource supply and demand will be made possible by identifying correlations between growth activity and physiological responses, including integrative impacts on carbon gain and water relations[@gratani2008].
+
+Separation of Dendrocalamus and Bambusa without flowers can be difficult[@stapleton1994]. Based mostly on distinct floral characteristics, the most recent classification methods have divided 67 genera of woody bamboos into nine subtribes. Bamboos are divided into three main groups based on their flowering cycles: gregarious flowering bamboos (B. bambos, B. tulda, D. strictus, and T. spathiflora), sporadic or irregular flowering bamboos (Chimonobambusa sp.), and annual flowering bamboos (Indocalamus wightianus, Ochlandra sp.)[@bhattacharya2006][@das2008]. Although bamboos have previously been classified primarily on morphological traits, this classification is unreliable since these traits are frequently modified by ecological circumstances. Based on the morphology of the culm-sheath, Chatterjee and Raizada (1963) created a key to identification for 22 bamboo taxa. The general look, size, texture, and shape of the sheath and their blades, in their words, "offer good characters for distinguishing the different species."[@chatterj]. In their research, (@das2007 )shown that just vegetative characteristics are ineffective at differentiating closely related species. According to Bennet:, a key factor in identifying a genus is its branching pattern[@yeasmin2015]. But environmental factors affect vegetative characteristics, making them unreliable for taxonomy classification[@yeasmin2015]. Based on vegetative and reproductive characteristics, the Principle Component Analysis revealed that the variation in the features is continuous and cannot be utilized to divide the species into a morphologically separate group[@yeasmin2015]. Bambusa species have large culm sheath auricles, glossy culms, uniform branches, and small leaves. However, Bambusa species with narrower prophylls and shorter rhachilla sections tend to possess some of the vegetative characteristics more typical of Dendrocalamus species. These include small or absent culm sheath auricles, dense furry wax on the culms, dense pubescence on the culm sheaths, large root-bearing central branches, and large leaves[@stapleton1994].The rhizome, which together with the culms are created underground annually, is what allows bamboo forests to grow. As a result, bamboo forests are composed of stands that have varying ages of culms dispersed throughout them[@yen2010]. Typically, this kind of bamboo is tall and erect [@tamang2013]. However due to the involvement of few genes for morphological qualities that may not accurately reflect the complete scenario of the genome, the validity of taxonomic groups based solely on morphological characters has frequently been questioned[@das2007]. To deal with numerous issues of the taxonomic classification of plants, molecular data can offer helpful information. Using Molecular DNA techniques, researchers can detect varied accessions for breeding, measure the relative diversity within and among species, and identify genotypes at the taxonomic level[@nayak2003]. So the findings from the particular scholar suggest that for the evolutionary relationships between taxa to be supported, morphological data must be added to the molecular evidence[@das2007].
+
+Due to its many use and high adaptability, it can serve as a substitute for timber, as well as a source of food for rural poor people and indigenous people in particular. It is therefore frequently referred to as "poor man's timber" as a result[@tamang2013]. Life begins with a bamboo knife in some regions of South East Asia when the umbilical cord of a newborn baby is cut with one, as well as when a male youngster is circumcised. Besides it plays a critical function in the paper and pulp sector.According to Sharma et al., by 1987, the country needed 5 million tonnes of bamboo, of which 3.5 million tonnes were needed for the paper and pulp sector. Being the giant member of subfamily Bambusoideae, it has a chromosome number of 12 (x = 12) in most woody bamboo, whereas in herbaceous bamboo it is 11 (x = 11). Bamboo serves innumerable other purposes besides those directly related to humans. According to Kratter's study, 25 of the 440 bird species that live in the Amazon rainforest are restricted to bamboo thickets. Subsidiary feeders on Southeast Asian bamboos include elephants (Elephas maximus), wild cattle (Bos gaurus and B. javanicus), various species of deer (Cervidae), primates (including macaques Macaca and leaf monkeys Presbytis), pigs (Suidae), rats and mice (Muridae), porcupines (Hystricidae), and squirrels (Sciuridae). More than 15 Asian bird species only build their nests out of bamboo, and a large fraction of these uncommon and endangered species' habitats include bamboo (Bird Life International, 2000). The second-smallest bat in the world (Tylonycteris pachypus, 3.5 cm) enters the adult bamboo (Gigantochloa scortechinii) through holes made by beetles to build its nest between the nodes. The Himalayan black bear (Selenarctos thibetanus), red panda (Ailurus fulgens), and Asian giant panda (Ailuropoda melanoleuca) all rely extensively on bamboo for food. The Red Data Book of the IUCN recently classified the Red Panda (A. fulgens) as endangered. According to the Red Panda Network at www.redpandanetwork.org, the degradation of bamboo forests, where the Red Panda relies mostly on bamboo leaves, is one of the main causes of the species' extinction in the wild. Hokkaido voles (Clethrionomys rufocanus) rely heavily on the leaves of Sasa senanesis, Sasa kurilensis, and Sasa nipponica during the winter months when most other plants have withered[@yeasmin2015].
+
+## Rationale of the study
+
+Bamboo taxonomy has suffered considerable neglect over the last century, largely because of the scarcity of flowering material arising from the peculiar flowering behavior of the bamboos. This issue is exacerbated when it comes to Himalayan species due to physical and political inaccessibility. Despite being a challenging group to study, bamboos possess several taxonomically useful characteristics not commonly found in other grasses. These include specialized culm sheaths and well-developed branch complements. In addition, many genera have forms of iterauctant inflorescence, the spikelets of which have basal buds, which can lead to various degrees of ramification. Maximum use of these characters was not made in classic treatments of the bamboos, and neither vegetative nor floral morphology was well understood. There is now a better understanding of the different forms of rhizome, inflorescence, and vegetative branching pattern. This, along with more detailed descriptions of a wide range of material from China, has allowed a better appreciation of the wide range of morphological characters available. In recent years, the recognition of the value of bamboos in meeting basic rural needs in underdeveloped countries, as well as their ability to conserve soil, has increased. As a result, bamboos have been included in development initiatives in many areas of the Indian subcontinent. Wetter subtropical and warm temperate areas of the monsoonal Himalayas are particularly well suited to bamboos, and to the east of longitude 83$^\circ$ bamboos become increasingly important in rural land-use.
+
+Although bamboos have many advantages and there is increasing demand for their products in the nation, there is little published information on the bamboo that demonstrates the relationship between its morphological characteristics[@oli2005]. Thus the models developed from the research will be important operational tools for supporting decision-making for a wide range of activities in the studied area. They can represent short-term growth (diameter, height, volume), provide detailed information about stand structure development (diameter and height distribution), calculate biomass and carbon stock projections, and allow consideration of a diverse variety of silvicultural treatments/prescriptions, among other things[@briseño-reyes2020].Thus, this study will be a pioneering work for new researchers to develop the appropriate growth model for diverse valuable species.
+
+## Limitation of the study
+
+Bamboo inventory is in pioneer stage in Nepal. Thus, correlating models developed in the present study with previous researches will not be possible in our context There has been limited study on Bamboo taxonomy over the last century, largely because of the scarcity of flowering material arising from the peculiar flowering behavior of the bamboos. The same fact has also been a constrain in this study and we used morphological characters for bamboo identification. Despite being a challenging group to study, bamboos possess several taxonomically useful characteristics not commonly found in other grasses. In context of Nepal no regression models for bamboo have been developed till date. Thus, the models developed from the research will be important operational tools for supporting decision-making for a wide range of activities in the studied area.
+
+# Methodology
+
+## Study Area
+
+For the study, bamboo potential area found in non-forest area of Nepal have been chosen majorly the seven bamboo species of Nepal majorly including the two genus ie Bmabusa and Dendrocalamus. The study area included more than 66 districts of Nepal from east to west (28.3949 N, 84.1240 E) chosen and finalized as per consultation with field supervisor and advisor.
+
+[![](sushila%20(1).jpg){width="626"}](D:/Data_Analysis/DIM_HT_analysis/sushila%20(1).jpg)
+
+## Sampling Method
+
+The data for this assessment were collected from the inventory of 800 sample plots over Nepal in which 650 plots are chosen with NDVI greater than 0.4, 150 plots with NDVI less than 0.4 and rest 50 are non-bamboo plots which were selected by visual interpretation followed by choosing every fifth systematic point. But for analysis data from only the plots with NDVI greater than 0.4 were used. The input points for visual interpretation have been generated from the entire area of interest using 1 x 1 km grid in entire country. Plots were chosen with the help of connect earth online app (CEO). Inventory was done through circular plots with a radius of 56.42m. Diameter at breast height (DBH) was measured at 1.3m and Diameter(D30) at 0.3m (from the base) was also measured.
+
+Height was measured with the help of vertex; upto the point of culmination(vertical) , total height will be calculated with the help of Pythagoras theorem. For that, base distance was also calculated from seedling point of bamboo in the field.A total of nine culms (three culms from each size class) will be measured from each clump based on size class. Size class was defined as;
+
+a.  Less than 4.5 cm as Small
+
+b.  4.5cm to 7.5cm as Medium
+
+c.  More 7.5cm as Large
+
+Rest were counted only according to age class, mainly defined as;
+
+a.  Less than 1 year
+
+b.  1 to 2 years
+
+c.  More than 3 years
+
+Identification of age class and species will be done on the basis of presence/ absence of sheath, color of the culm and with the help of local resource person (LRP).
+
+```{r warning= FALSE, echo=FALSE, message=FALSE, fig.cap="Bamboo Height Measurement", out.width="90%"}
+knitr::include_graphics("C:/Users/DELL/Pictures/Screenshots/Bamboo Height Measurement.png")
+
+
+```
+
+Here in the Figure 1, 'H' represents the height culmination of the bamboo i.e the height from ground to the point where bamboo starts to lean, and it was calculated with the help of vertex. 'b' represents the base distance from seedling point of bamboo, and 'tc' belongs to height of bamboo which was calculated by using Pythagorus theorem as a Sqrt of (square of tc + square of base(b)) as almost of the bamboos are leaning. And lastly, 'l' represents the total length of bamboo which was measured after the felling the bamboo.
+
+Since the data we have used here were collected from destructive sampling,the bamboo culm to be felled was inventoried previously. D30, dbh, height up to culmination and base were read orderly. Then the culm was finally felled. After felling, stump height number of nodes, and diameter at different sections were measured. Also the total length of the culm was measured up to tip with the help of a linear tape. The data of 369 individual culms was taken for this study.
+
+## Data collection
+
+### Primary Data Collection
+
+Necessary data were retrieved from the data archive of the Forest Research and Training Center (FRTC Nepal). Information on Sample plots, methods adopted during sampling and sample plot measurement were done according to the FRTC protocol, Bamboo field manual (Proposed) and strictly following instructions from FRTC officials. Data were noted on the field tally sheets specially prepared for Bamboo Resource Inventory by FRTC.
+
+### Secondary Data Analysis
+
+Other secondary data were collected by reviewing various manuals/published reports and literature prepared by Forest Research and Training Center particularly about bamboo and several other published reports and articles from different source on internet were taken in to consideration during whole data analysis.
+
+## Data analysis
+
+The data was analyzed by using different software: Q-GIS, statistical packages in R - software, google sheet, etc. No preliminary research findings were discovered during the literature review. Generally, for regression models different polynomial equations are used. For this paper we have used simple linear regression models. Further data analysis instructions was as per guidance from experts in FRTC.
+
+### Data Validation and arrangement
+
+Data checking and validation was done by Google sheets and different packages of R on close inspections of officers from FRTC and experts from Genesis Consultancy.
+
+### Defining the Independent variable
+
+The probable variables for this models are diameter at breast height(dbh), height of culmination,base and the total length of bamboo obtained from destructive felling. The length in m was dependent variable and rest of the variables were used as independent.
+
+### Correlation among the variables
+
+The linear correlation between two continuous variables in a dataset is frequently determined using the Pearson correlation coefficient[@vii.not].
+
+The correlation between independent variable and every dependent was tested and the testing of model was initiated with higher correlation between the dependent and independent variable.
+
+The formula for Pearson correlation coefficient is given by;
+
+$$[ r = \frac{{\sum_{i=1}^{n} (X_i - \bar{X})(Y_i - \bar{Y})}}{{\sqrt{\sum_{i=1}^{n} (X_i - \bar{X})^2} \sqrt{\sum_{i=1}^{n} (Y_i - \bar{Y})^2}}} ]..................                          (i)$$
+
+### Fitting the models
+
+Primarily, the height and diameter has the linear relationship whereas some of the cases have the effect of other variables like climatic , topographic etc. In the case of bamboo and its nature of leaning and the portion of length after the culmination height, we collected the data related to culmination height, base height (distance between seeding point and the base of culmination height. So we have three parameters to predict total length of bamboo culm.
+
+The linear fitting was used to perform the relationship model between height and diameter. 80 % data will be regarded as training data and rest of were used as testing the developed model in order to analyze the model's performance on hypothetical data and gauge its applicability to fresh observations[@anintro]. The best fitting model has been given from the analysis and the best fit of model was tested by Adjusted R² and Root mean square error.Adjusted R² is a metric for gauging how well a model matches observable data. Indicating the model's capacity to account for data variability, it measures the proportion of variation in the dependent variable that can be assigned to the independent variables. It takes into account how many predictors are included in the model and restricts the addition of extraneous predictors[@hocking1976].In regression tasks where the objective is to predict continuous numerical values, RMSE is particularly helpful in order to evaluate the accuracy of predictions and provide a significant measure of the model's performance. It also has several appealing properties that make it a preferred option for assessing regression models[@willmott1981]. For Adjusted R² higher values are preferred ranging from 0 to 1 and that for root mean square error lower values are preferred. Formula for Adjusted R² is given by; $$[\text{Adjusted R}^2 = 1 - \left(1 - R^2\right) \frac{n - 1}{n - k - 1}].............(ii)
+$$ Similarly, the formula for root mean square error is given by;
+
+$$[ \text{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2} ]...........(iii)$$
+
+# Result and Discussion
+
+## Data structure and status
+
+As the inventory being carried out, data has been collected for all of the bamboo species available here in Nepal, the research majorly focused on 7 major species found in Nepal. And the destructive sampling has been carried out only for these 7 species. The 7 major species includes;
+
+a.  Bambusa balcooa(Dhanu/ Ghar/ Harouti Bans)
+
+b.  Bambusa nepalensis (Choya/Tama/Khasre/Phusre Bans)
+
+c.  Bambusa nutans subsp. cupulata (Mal/Mala/Thulo/Lisingfa Bans)
+
+d.  Bambusa nutans subsp. nutans (Taru/Tharu/Sate /Chille /Ghar bans)
+
+e.  Bambusa tulda (Jhapta/Chav/Chab /Kada/Koraincho bans)
+
+f.  Dendrocalamus hamiltonii var. hamiltonii and undulatus(Choya/Tama/Guliyo/Dhungre/Ban bans)
+
+g.  Dendrocalamus hookeri(Kalo bans/Bhalu bans)
+
+All of the bamboos above belonged large bamboo category.
+
+```{r warning=FALSE, message=FALSE}
+# load necessary libraries
+library(dplyr)
+library(easystats)
+library(caret)
+# Load data set
+dat <- read.csv("D:/Data_Analysis/DIM_HT_analysis/biomass_data_analysis.csv")
+dat_bamb <- subset(dat,dat$species_code < 408)
+dat_dend <- subset(dat,dat$species_code > 408)
+
+# needed variable 
+var_need <- c("species_code","latin_name","d30", "dbh", "base", "ht_culmination", "length_m")
+```
+
+### Preview of the data
+
+Below is the table showing the necessary variables for Bambusa species for analysis.
+
+```{r echo= FALSE}
+# Display the preview of data in Table
+knitr::kable(head(dat_bamb[,var_need],10), caption = "Preview of necessary variables of Bambusa group")
+```
+
+Below is the table showing the necessary variables for Dendrocalamus species for analysis.
+
+```{r echo = FALSE, warning=FALSE, message=FALSE}
+knitr::kable(head(dat_dend[,var_need],10), caption = "Preview of necessary variables of Dendrocalamus group")
+```
+
+### Summary of Bambusa Group
+
+The descriptive statistics for this study includes mean, maximum and minimum values of dbh, height of culmination,base and length for Bambusa species which is shown in the table as;
+
+```{r echo=FALSE}
+df <- summary(dat_bamb[,var_need])
+knitr::kable(df,caption = "Summary of variables in Bambusa group", align = 'c', digits = 3)
+```
+
+### Summary of Dendrocalamus Group
+
+The descriptive statistics for this study includes mean, maximum and minimum values of dbh, height of culmination,base and length for Dendrocalamus species which is shown in the table as;
+
+```{r echo = FALSE, warning=FALSE, Message=FALSE}
+df <- summary(dat_dend[,var_need])
+knitr::kable(df,caption = "Summary of variables in Dendrocalamus group", align = 'c', digits = 3)
+```
+
+### Correlation between the variables
+
+```{r warning= FALSE, echo=FALSE, message=FALSE, fig.cap= "Correlation matrix of variables"}
+library(psych)
+pairs.panels(dat_bamb[,var_need][-c(1,2)])
+```
+
+Figures explains that, the length of the bamboo and the culmination height have the highest correlation i.e., `r round(corr.test(dat$length_m, dat$ht_culmination)$r,1)`. As we knew there is a strong correlation between d30 and dbh i.e 0.96 so we used only the dbh as there will be higher multicolinearity between the variables and the with the given multicolinearity the model so formed tends to be complex and we intended to remove such complexity. We started to test the model firstly with dbh as independent variable and the length(m) as the dependent variable. Similarly correlation between dbh and base was found to be 0.15 and that with height of culmination to be 0.68 and with length to be 0.70. For better results we kept on testing the model by adding one more variable i.e the height up to culmination and the base. Following are the consecutive models prepared by adding one more variable respectively.
+
+## Fitting models
+
+### Simple linear model for Bambusa Species
+
+#### With ht_culmination as independent variable and length in m as dependent varaiable
+
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+md_dat <- dat_bamb
+genus <- "Bambusa Species"
+# load Package
+library(dplyr)
+library(lme4)
+library(easystats)
+library(caret)
+## split data into test and train
+
+# set random condition first
+set.seed(40)
+
+# generate random indices
+indices <- sample(1:nrow(md_dat),nrow(md_dat)*0.8)
+
+# Train data split
+train <- md_dat[indices,]
+
+# test data split
+test <- md_dat[-indices,]
+
+
+## Run the model in train data
+m1 <- lm(length_m ~ ht_culmination, data = train)
+# Test the model by test data 
+# Predict the variable in test data 
+pred <- m1 %>% predict(test)
+a <- RMSE(pred, test$length_m)
+
+m1_result <- data.frame(Formula = "Length = Int + Culmination Height", Intercept = m1$coefficients[1], a = m1$coefficients[2], R2 = r2(m1)[2], RMSE = a )
+
+knitr::kable(m1_result, caption = paste("Model result for ", genus), align = 'l', digit = 3)
+#
+```
+
+#### Plot the model
+
+```{r}
+eq <- paste0("L(m)  = ", round(m1$coefficients[2],3)," * ", names(m1$coefficients)[2], " + ", round(m1$coefficients[1],3))
+eq
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(easystats)
+gg <- ggplot(test, aes(length_m, pred)) +
+  geom_point() +
+  theme_bw(base_size = 12) +
+  annotate("text", x = 12, y = 26, label = paste(eq)) +
+  annotate("text", x = 12, y = 25, label = paste("Adj. R\u00B2 = ", round(m1_result$R2_adjusted,3))) +
+  annotate("text", x = 12, y = 24, label =paste("RMSE = ", "\302\261",round(a,2))) +
+  stat_smooth(method = "lm", se = F)
+gg
+```
+
+So, with height of culmination as independent and length as dependent the equation so developed was found to be 1.003 \* ht_culmination + 2.118 with adjusted R² as 0.832 and RMSE as ± 1.92 respectively.
+
+## With ht_culmination and dbh as independent variable and length_m as dependent varaiable
+
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+md_dat <- dat_bamb
+genus <- "Bambusa Species"
+# load Package
+library(dplyr)
+library(lme4)
+library(easystats)
+library(caret)
+## split data into test and train
+
+# set random condition first
+set.seed(40)
+
+# generate random indices
+indices <- sample(1:nrow(md_dat),nrow(md_dat)*0.8)
+
+# Train data split
+train <- md_dat[indices,]
+
+# test data split
+test <- md_dat[-indices,]
+
+
+## Run the model in train data
+m1 <- lm(length_m ~ ht_culmination + dbh, data = train)
+
+# Test the model by test data 
+# Predict the variable in test data 
+pred <- m1 %>% predict(test)
+a <- RMSE(pred, test$length_m)
+
+m1_result <- data.frame(formula = "Length ~ Int + culmination height + dbh" ,Intercept = m1$coefficients[1], a = m1$coefficients[2], b = m1$coefficients[3], R2 = r2(m1)[2], RMSE = a )
+
+knitr::kable(m1_result, caption = paste("Model result for ", genus), align = 'l', digit = 3)
+#
+```
+
+### Plot the model
+
+```{r}
+eq <- paste0("L(m)  = ", round(m1$coefficients[2],3)," * ", names(m1$coefficients)[2], " + ", round(m1$coefficients[3],3)," * ", names(m1$coefficients)[3], " + ", round(m1$coefficients[1],3))
+eq
+```
+
+```{r echo = FALSE,message=FALSE, warning=FALSE}
+library(ggplot2)
+library(easystats)
+gg <- ggplot(test, aes(length_m, pred)) +
+  geom_point() +
+  theme_bw(base_size = 12) +
+  annotate("text", x = 13 , y = 26, label = paste(eq)) +
+  annotate("text", x = 12, y = 25, label = paste("Adj. R\u00B2 = ", round(m1_result$R2_adjusted,3))) +
+  annotate("text", x = 12, y = 24, label =paste("RMSE = ", "\302\261",round(a,2))) +
+  stat_smooth(method = "lm", se = F)
+gg
+```
+
+So,with ht_culmination and dbh as independent variable and length_m as dependent variable the equation so developed was found to be 0.891 \* ht_culmination + 0.35 \* dbh + 1.195 with Adj. R² as 0.841 and RMSE as ± 1.82 respectively.
+
+## With ht_culmination,dbh and base as independent variable and length_m as dependent varaiable
+
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+md_dat <- dat_bamb
+genus <- "Bambusa Species"
+# load Package
+library(dplyr)
+library(lme4)
+library(easystats)
+library(caret)
+## split data into test and train
+
+# set random condition first
+set.seed(40)
+
+# generate random indices
+indices <- sample(1:nrow(md_dat),nrow(md_dat)*0.8)
+
+# Train data split
+train_bamb <- md_dat[indices,]
+
+# test data split
+test_bamb <- md_dat[-indices,]
+
+
+## Run the model in train data
+m1 <- lm(length_m ~ ht_culmination + dbh +base, data = train_bamb)
+
+# Test the model by test data 
+# Predict the variable in test data 
+pred <- m1 %>% predict(test_bamb)
+a <- RMSE(pred, test_bamb$length_m)
+
+m1_result <- data.frame(formula = "Length ~ Int + culmination height + dbh + base" ,Intercept = m1$coefficients[1], a = m1$coefficients[2], b = m1$coefficients[3], R2 = r2(m1)[2], RMSE = a )
+
+knitr::kable(m1_result, caption = paste("Model result for ", genus), align = 'l', digit = 3)
+
+
+```
+
+### Plot the model
+
+```{r}
+eq <- paste0("L(m)  = ", round(m1$coefficients[2],3)," * ", names(m1$coefficients)[2], " + ", round(m1$coefficients[3],3)," * ", names(m1$coefficients)[3], " + ", round(m1$coefficients[4],3),"*", names(m1$coefficients)[4], "+", round(m1$coefficients[1],3))
+eq
+
+```
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+library(ggplot2)
+library(easystats)
+gg <- ggplot(test, aes(length_m, pred)) +
+  geom_point() +
+  theme_bw(base_size = 12) +
+  annotate("text", x = 15 , y = 26, label = paste(eq)) +
+  annotate("text", x = 12, y = 25, label = paste("Adj. R\u00B2 = ", round(m1_result$R2_adjusted,3))) +
+  annotate("text", x = 12, y = 24, label =paste("RMSE = ", "\302\261",round(a,2))) +
+  stat_smooth(method = "lm", se = F)
+gg
+
+
+```
+
+With height of culmination,dbh and base as independent variable and length_m as dependent variable, the equation so developed was found to be 0.907 \* ht_culmination + 0.248 \* dbh + 0.807\*base+0.141 with Adj. R² as 0.896 and RMSE as ± 1.63 respectively for bambusa group.
+
+## Simple linear model for Dendrocalamus Species
+
+### With ht_culmination as independent variable and length in m as dependent varaiable
+
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+md_dat <- dat_dend
+genus <- "Dendrocalamus Species"
+# load Package
+library(dplyr)
+library(lme4)
+library(easystats)
+library(caret)
+## split data into test and train
+
+# set random condition first
+set.seed(40)
+
+# generate random indices
+indices <- sample(1:nrow(md_dat),nrow(md_dat)*0.8)
+
+# Train data split
+train <- md_dat[indices,]
+
+# test data split
+test <- md_dat[-indices,]
+
+
+## Run the model in train data
+m1 <- lm(length_m ~ ht_culmination, data = train)
+# Test the model by test data 
+# Predict the variable in test data 
+pred <- m1 %>% predict(test)
+a <- RMSE(pred, test$length_m)
+
+m1_result <- data.frame(Formula = "Length = Int + Culmination Height", Intercept = m1$coefficients[1], a = m1$coefficients[2], R2 = r2(m1)[2], RMSE = a )
+
+knitr::kable(m1_result, caption = paste("Model result for ", genus), align = 'l', digit = 3)
+#
+```
+
+### Plot the model
+
+```{r}
+eq <- paste0("L(m)  = ", round(m1$coefficients[2],3)," * ", names(m1$coefficients)[2], " + ", round(m1$coefficients[1],3))
+eq
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(easystats)
+gg <- ggplot(test, aes(length_m, pred)) +
+  geom_point() +
+  theme_bw(base_size = 12) +
+  annotate("text", x = 12, y = 26, label = paste(eq)) +
+  annotate("text", x = 12, y = 25, label = paste("Adj. R\u00B2 = ", round(m1_result$R2_adjusted,3))) +
+  annotate("text", x = 12, y = 24, label =paste("RMSE = ", "\302\261",round(a,2))) +
+  stat_smooth(method = "lm", se = F)
+gg
+```
+
+For dendrocalamus species, with height of culmination as independent variable and length in m as dependent variable the equation so developed was found to be 1.03 \* ht_culmination + 2.011 with Adj. R² as 0.848 and RMSE as ± 1.51 respectively.
+
+### With ht_culmination and dbh as independent variable and length_m as dependent varaiable
+
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+md_dat <- dat_dend
+genus <- "Dendrocalamus Species"
+# load Package
+library(dplyr)
+library(lme4)
+library(easystats)
+library(caret)
+## split data into test and train
+
+# set random condition first
+set.seed(40)
+
+# generate random indices
+indices <- sample(1:nrow(md_dat),nrow(md_dat)*0.8)
+
+# Train data split
+train <- md_dat[indices,]
+
+# test data split
+test <- md_dat[-indices,]
+
+
+## Run the model in train data
+m1 <- lm(length_m ~ ht_culmination + dbh, data = train)
+
+# Test the model by test data 
+# Predict the variable in test data 
+pred <- m1 %>% predict(test)
+a <- RMSE(pred, test$length_m)
+
+m1_result <- data.frame(formula = "Length ~ Int + culmination height + dbh" ,Intercept = m1$coefficients[1], a = m1$coefficients[2], b = m1$coefficients[3], R2 = r2(m1)[2], RMSE = a )
+
+knitr::kable(m1_result, caption = paste("Model result for ", genus), align = 'l', digit = 3)
+#
+```
+
+### Plot the model
+
+```{r}
+eq <- paste0("L(m)  = ", round(m1$coefficients[2],3)," * ", names(m1$coefficients)[2], " + ", round(m1$coefficients[3],3)," * ", names(m1$coefficients)[3], " + ", round(m1$coefficients[1],3))
+eq
+```
+
+```{r echo = FALSE,message=FALSE, warning=FALSE}
+library(ggplot2)
+library(easystats)
+gg <- ggplot(test, aes(length_m, pred)) +
+  geom_point() +
+  theme_bw(base_size = 12) +
+  annotate("text", x = 13 , y = 26, label = paste(eq)) +
+  annotate("text", x = 12, y = 25, label = paste("Adj. R\u00B2 = ", round(m1_result$R2_adjusted,3))) +
+  annotate("text", x = 12, y = 24, label =paste("RMSE = ", "\302\261",round(a,2))) +
+  stat_smooth(method = "lm", se = F)
+gg
+```
+
+With height of culmination,dbh and base as independent variable and length_m as dependent variable the model so developed was found to be 1.037 \* ht_culmination +(-0.013) \* dbh + 2.023 with Adj. R² as 0.847 and RMSE as ± 1.5 .
+
+### With ht_culmination,dbh and base as independent variable and length_m as dependent varaiable
+
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+md_dat <- dat_dend
+genus <- "Dendrocalamus Species"
+# load Package
+library(dplyr)
+library(lme4)
+library(easystats)
+library(caret)
+## split data into test and train
+
+# set random condition first
+set.seed(40)
+
+# generate random indices
+indices <- sample(1:nrow(md_dat),nrow(md_dat)*0.8)
+
+# Train data split
+train_dend <- md_dat[indices,]
+
+# test data split
+test_dend <- md_dat[-indices,]
+
+
+## Run the model in train data
+m1 <- lm(length_m ~ ht_culmination + dbh +base, data = train_dend)
+
+# Test the model by test data 
+# Predict the variable in test data 
+pred <- m1 %>% predict(test)
+a <- RMSE(pred, test_dend$length_m)
+
+m1_result <- data.frame(formula = "Length ~ Int + culmination height + dbh + base" ,Intercept = m1$coefficients[1], a = m1$coefficients[2], b = m1$coefficients[3], R2 = r2(m1)[2], RMSE = a )
+
+knitr::kable(m1_result, caption = paste("Model result for ", genus), align = 'l', digit = 3)
+
+
+```
+
+### Plot the model
+
+```{r}
+eq <- paste0("L(m)  = ", round(m1$coefficients[2],3)," * ", names(m1$coefficients)[2], " + ", round(m1$coefficients[3],3)," * ", names(m1$coefficients)[3], " + ", round(m1$coefficients[4],3),"*", names(m1$coefficients)[4], "+", round(m1$coefficients[1],3))
+eq
+
+```
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+library(ggplot2)
+library(easystats)
+gg <- ggplot(test, aes(length_m, pred)) +
+  geom_point() +
+  theme_bw(base_size = 12) +
+  annotate("text", x = 15 , y = 26, label = paste(eq)) +
+  annotate("text", x = 12, y = 25, label = paste("Adj. R\u00B2 = ", round(m1_result$R2_adjusted,3))) +
+  annotate("text", x = 12, y = 24, label =paste("RMSE = ", "\302\261",round(a,2))) +
+  stat_smooth(method = "lm", se = F)
+gg
+
+
+```
+
+With height of culmination and dbh as independent variable and length_m as dependent variable the model so developed was found to be 0.978 \* ht_culmination +(-0.025) \* dbh + 0.505\*base+1.745 with Adj. R² as 0.88 and RMSE as ± 0.95.
+
+## Testing the statistical differences in the results of two different models applying same independent variables to them.
+
+For testing the statistical differences between the results of these two sets of predictions, we applied the same independent variables. The descriptive statistics for this study includes mean, maximum and minimum values of dbh, height of culmination, and length.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(reshape2)
+test_dat <- read.csv("D:/Data_Analysis/DIM_HT_analysis/biomass_data_analysis.csv")
+
+best_mod_bamb <- lm(length_m ~ ht_culmination + dbh +base, data = train_bamb)
+
+best_mod_dend <- lm(length_m ~ ht_culmination + dbh +base, data = train_dend)
+
+# Predict length of all culms using the model
+
+pred_bamb <- best_mod_bamb %>% 
+  predict(test_dat)
+pred_dend <- best_mod_dend %>% 
+  predict(test_dat)
+
+final_test_file <- data.frame(cbind(pred_bamb,pred_dend))
+n_bamb <- round(shapiro.test(pred_bamb)$p.value,4)
+n_dend <- round(shapiro.test(pred_dend)$p.value,4)
+
+final_test <- melt(final_test_file,measure.vars=c('pred_bamb', 'pred_dend'))
+colnames(final_test) <- c("Species_model", "Predicted_length")
+
+```
+
+Shapiro-Wilk test was conducted to examine the normality of the data. In comparison to other tests like the Kolmogorov-Smirnov test or the Anderson-Darling test , the Shapiro-Wilk test provides a more accurate assessment of normality and is particularly helpful when the sample size is small to moderate (usually less than 2,000 observations)[@shapiro1965].
+
+The formula for Shapiro-Wilk test is given by
+
+$[ W = \frac{{\left(\sum_{i=1}^{n} w_i x_i - \bar{x}\right)^2}}{{\sum_{i=1}^{n} (x_i - \bar{x})^2}}].....................(iv)$
+
+## Plot the distribution of these two prediction
+
+```{r message=FALSE, warning=FALSE, echo=FALSE}
+library(ggplot2)
+ggplot(data = final_test, aes(x = c(1:738), y = Predicted_length, color=Species_model)) +
+  geom_boxplot() + labs(x = "Bamboo Species")
+
+```
+
+In the box plot the distribution of two sets of prediction has been shown. From the box plot, it has been proved that the data is almost normal with a very few outliers.
+
+## Result from normality test of two sets of prediction
+
+From the test performed above for both where predicted value i.e p value were `r n_bamb` and `r n_dend` respectively. As the p value is less than 0.005 for Bambusa group and greater than 0.05 for Dendrocalamus group, they are considered as statistically and marginally significant at 0.95 confidence interval. This indicates that the test results are not likely to have happened by coincidence and that there is evidence to reject the null hypothesis in favor of the alternative hypothesis. Since, the data were almost normal,we calculate the variance of the data.
+
+## Variance test
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+library(lawstat)
+l <- levene.test(final_test$Predicted_length, final_test$Species_model,location = "mean" )
+```
+
+As the distribution of the prediction was not perfectly normal we used Classical Levene's test. Some of the probable reasons that has lead to marginally significant normality of dendrocalamus group are a. Smaller sample size b. Few Outliers c. Might be because of moderate skewness or kurtosis The formula for Classical Levene's test is given by; $$( d_{ij} = |X_{ij} - \bar{X}_i| ) ..............(v)$$
+
+It is employed to evaluate the equality of variances across various datasets or groupings. It is frequently employed as a preliminary test for some parametric tests such as the t-test or analysis of variance (ANOVA)[@h1960]. The p value of the variance test using Classical Levene's test based on the absolute deviations from the mean was found `r round(l$p.value,3)` with the test statistic value `r round(data.frame(l$statistic),3)`. As the results from variance test was \>0.05, it is statistically insignificant and we fail to reject null hypothesis. However there are scholars which claim to have accepted alternative hypothesis based on higher correlation coefficients as significant relationships[@wang2004]. Here in this study there was a strong correlation between dbh and length in m i.e. 0.70 , as the correlation coefficient itself is the measure of correlation strength[@lindley1999].
+
+## T test results
+
+For testing the regression coefficients we used two-way ANOVA. For t-test we used Welch's two sample t-test. In situations where the presumption of equal variances might not apply, it is used to differentiate the means of two independent groups. It is a modified form of the two-sample t-test that takes into account the various variances present in the two groups being compared. When the assumption of equal variances is unclear, this test is more robust and dependable[@welch1947]. The formula for Welch's two sample t-test is given by; $$
+[ t = \frac{{\bar{X}_1 - \bar{X}_2}}{{\sqrt{\frac{{s_1^2}}{{n_1}} + \frac{{s_2^2}}{{n_2}}}}} ]...............(vi) 
+$$
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+library(stats)
+library(rstatix)
+t <- t.test(final_test_file$pred_bamb,final_test_file$pred_dend)
+
+t_df <- data.frame(Method = t$method, parameter = t$parameter, p_value = t$p.value)
+knitr::kable(t_df,caption = "Result from t test",digit = 3, align = 'l')
+```
+
+The result from two- way ANOVA was still insignifiant as the p value is 0.7 i.e. (\> 0.05) and we cannot conclude that the regression coeffecient are statistically different from zero.This could mean the variable associated with this coefficients might not have a significant effect on the outcome being predicted by the regression model. Some of the probabale reasons for non-significant regression coeffecients are;
+
+a.  Multicollinearity (A data problem called collinearity develops when two independent variables have a high degree of correlation[@sarstedt2019].)
+
+b.  Smaller Sample Size
+
+c.  They might have weak effect on the model.
+
+However non-significant regression coefficients can still provide useful information in the model. Things that needs to be considered for non-significant regression coeffecient are;
+
+a.  Practical Significance
+
+b.  Theoritical Importance
+
+c.  Model Selection d. Multicolinearity
+
+# Conclusion and Recommendation
+
+## Conclusion
+
+The development of models for predicting the length of bamboo is very essential for sustainable management of bamboo resources. Today, many planning and policy development processes cannot reach to a logical conclusion without modeling and simulation. As a result, the purpose of this research was to develop an individual model that will help us predict the length of standing bamboo culm in order to identify the optimum conditions and key drivers of their growth for use in bamboo resource management found in non- forest area or outside the forest. In this study, only simple linear model was used to create the individual model for predicting length of an individual culm. From the results, simple linear model is the best fitting model for both groups i.e. Bambusa group and Dendrocalamus group with higher R² values.Thus the final equation so obtained for Bambusa group is: L(m)= 0.907 \* ht_culmination + 0.248 \* dbh + 0.807\*base+0.141 with Adj.R2 as 0.896 and RMSE as ± 1.63 respectively.
+
+Similarly the final equation so obtained for Dendrocalamus group is: 0.978 \* ht_culmination +(-0.025) \* dbh + 0.505\*base+1.745 with Adj. R² as 0.88 and RMSE as ± 0.95 respectively. The accuracy of this model is better, because it uses individual culm level variables and parameters. In addition this study provides a complete model to predict length of bamboo with available variables along with their respective accuracy. To conclude the best results are obtained when all 3 of the variables are used as independents i.e. the dbh, base and height up to culmination.
+
+## Recommendation
+
+a.  As the values of R² and RMSE are good for both Bambusa and Dendrocalamus groups, using 3 variables as independent i.e. dbh, base and height up to culmination, it is recommended to use Model Result third for both of the groups.
+
+b.  There had been very limited studies on bamboo, so it is recommended to carry out further research and studies on the topic such as, market analysis, commercialization of bamboo products, its role on economic upliftment and livelihood dependence, Volume calculation of Culms, Biomass estimation, etc. Also, limited scholars were found in role of bamboo in carbon sequestration, effect of climate change on Bamboo, etc., so it is recommended to research more on the topic.
+
+c.  Here in this study, model for Bambusa Group and Dendrocalamus Group has been developed as a whole. Separate models for individual species could be developed too.
+
+# Internship Description and Learning
+
+## Internship Description
+
+The definition of an internship is "structured and career-relevant work experiences attained by students before they complete an academic program." Interns work under supervision and adhere to predetermined office policies in this type of experiential learning. An internship gives students the chance to put their theoretical knowledge into practice and helps to bridge the gap between theory and practice. Students might thus combine and solidify their thoughts and deeds. The usefulness of internships has been characterized as "win-win-win" circumstances that benefit all parties involved, including faculties, students, and employers.Internship programs give students the chance to put what they learn in the classroom into practice and demonstrate it in a real-world setting. They can do this while working under the supervision of faculty members and putting the concrete concepts they have learned to use in the classroom. Internships give faculties a connection to the workforce, which has the potential to be beneficial in the long run. High-caliber students who wish to experience real-world practices before graduating may be attracted by firms who provide internship programs. Employers might assess their performance without making a long-term commitment and then bolster prospective employees. Internships have been well established and used for a while in the west, where some students must complete a long- or short-term internship in order to graduate. While there is certainly room for development, internships are a long-standing practice in Nepal and are well-structured in several fields, such as those relating to medicine and tourism. In order to help students learn and conduct research on a wide range of subject areas of forest development, FRTC has developed an internship program for B.Sc. forestry graduate students. For my internship I was assigned to Forest Research and Training Centre(FRTC) in Babarmahal, Kathmandu. It falls under the Ministry of Forests and Environment as a government organization.It oversees national forestry research and survey initiatives and provides training and extension services in the field. It was initially founded in 1999 under the name Department of Forest Research and Survey. The Central Forestry Training and Extension Centre and the Department were combined to form the Forest Research and Training Centre (FRTC) in 2018. It is useful for capacity building, mapping the forest cover, and many other relevant research and studies.
+
+## Internship Learning
+
+It had been a wonderful learning experience for me to spend these five months as an intern at the Forest Research and Training Center. I worked under Forest Inventory and Carbon Mapping Section from 29 Jan to 30 June. A good networking effort was made with the employees and other interns in order to understand the FRTC's environment. I had figured out how to connect with those who could give me counsel, direction, and future assistance. I got the chance to observe how a company operates. Numerous opportunities and trainings at a high level were held to advance my forestry expertise, and several tactful situations were placed in my path. I was able to learn more about the processes involved in gathering forestry-related data on the ground and entering it into databases for processing and analysis as a result of my experiences. Major learning from these 5 months are listed below; a. Participated in Bamboo Resource inventory training.
+
+b.  Visited different districts such as Jhapa, Morang, Sunsari, etc., for preparation of allometric equation of major tree species of Nepal.
+
+c.  Training on Google earth engine, R-Studio, Ms- Excel and Q-GIS.
+
+d.  Learnt titration of soil samples for soil organic carbon analysis.
+
+e.  Organizational exploration.
+
+f.  Training on entry of data from tally sheets for allometric equation.
+
+g.  Visited different districts of Gandaki and Bagmati province for BRA.
+
+h.  Participated in entry of data from BRA tally sheets.
+
+i.  Management and entry of data obtained from sample plots for BRA established by FRTC.
+
+j.  Participated in Visual Interpretation for carbon sequestration using Collect Earth Online (CEO) for the accuracy assessment of MRV program of REDD Implementation (Projects named "Final MRV CEO Points Interpretation for TAL 2004-2021, QAQC TAL MRV Final FRTC, etc).
+
+k.  Participated in talk program related to " Deep Learning In Forestry".
+
+I learned a lot while working at FRTC, including my personal talents and shortcomings, and how to choose a career route. In the near future, when deciding on a career path, I am confident that the information I have learnt from my experiences with the FRTC will be quite helpful.
+
+# References

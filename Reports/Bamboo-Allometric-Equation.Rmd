@@ -95,7 +95,7 @@ Although bamboo has many advantages and there is increasing demand for its produ
  For the study, the bamboo potential area found in the non-forest area of Nepal has been chosen. The seven bamboo species of Nepal majorly include the two genera, i.e., Bambusa and Dendrocalamus. A total of 66 districts of Nepal from east to west (28.3949 ◦ N, 84.124 ◦ E) were included in the study area, chosen and finalized by Forest Research and Training Center (FRTC).
  
 ```{r,fig.cap="Study Area Map", echo=FALSE, fig.align='center', fig.height=4,fig.width=4 }
-#knitr::include_graphics("D:/Bamboo/Allometric_Bamboo/nepal.jpg")
+#knitr::include_graphics("D:/Bamboo/Allometric_Bamboo/Data/Study area map.jpg")
 ```
 
 ## Sampling Method
@@ -119,23 +119,51 @@ c. More then 3 years
 
 Identification of age class and species was done on the basis of presence or absence of a sheath, the color of the culm, and with the help of local resource person (LRP).
 
-Figure 2: Bamboo Height Measurement
+```{r,fig.cap="Height Measurement of Bamboo", echo=FALSE, fig.align='center', fig.height=4, fig.width=4}
+#knitr::include_graphics("D:/Bamboo/Allometric_Bamboo/Data/Height Measurement of Bamboo.png")
+
+```
+
+
 
 Here in Figure 2, ‘H’ stands for the height culmination of the bamboo, i.e., the height from the ground to the point where the bamboo starts to lean. It was calculated with the help of a vertex. ‘b’ stands for the base distance from the seedling point of bamboo, and ‘tc’ stands for the height of bamboo, which was calculated by using the Pythagoras theorem as a square root of (square of tc + square of base(b)) as almost of the bamboos are leaning. Lastly, ‘l’ stands for the total length of the bamboo, which was measured after the felling of the bamboo.
 Since the data used here was collected from destructive sampling, the bamboo culm to be felled was previously inventoried. d30, dbh, height up to culmination, and base were read orderly. Then the culm was finally felled. After felling, stump height, number of nodes, and diameter at different sections were measured. Also, the total length of the culm was measured up to the tip with the help of a linear tape. The data from 369 individual culms was taken for the study.
 
 
-## Data collection
+## Data structure and status
 
-### Primary Data Collection
+As mentioned by Das (2002) and Ghimire (2008) in Nepal, a total of 12 genera and over 53 distinct species of bamboo have been identified. Among them, the major species found are of Dendrocalamus and Bambusa category(Ghimire, 2008, Ayer et al., 2023). The research mainly focused on seven major species found in Nepal. The destructive sampling was carried out for these seven species. The seven major species included are:
 
-The main aim for this study was to assess and update bamboo resources information in Nepal in order to identify, map their distribution, collect samples, estimate volume, biomass, and growing stock of bamboo resources outside the forest area. Information on sample plots, methods adopted during sampling, and sample plot measurement were done according to the FRTC protocols, National Bamboo Resource Inventory Nepal (NBRAN) (proposed), and strictly following instructions from FRTC officials. Data were noted on the field tally sheets specially prepared for the Bamboo Resource Inventory by FRTC.
+a)	Bambusa balcooa (Dhanu/ Ghar/ Harouti Bans)
+
+b)	Bambusa nepalensis (Choya/ Tama/ Khasre/ Phusre Bans)
+
+c)	Bambusa nutans subsp. cupulata (Mal/ Mala/ Thulo/ Lisingfa Bans)
+
+d)	Bambusa nutans subsp. nutans (Taru/ Tharu /Sate/ Chille / Ghar bans)
+
+e)	Bambusa tulda (Jhapta/ Chav/ Chab/ Kada/ Koraincho bans)
+
+f)	Dendrocalamus hamiltonii var. hamiltonii and undulatus (Choya/ Tama/ Guliyo/ Dhungre/ Ban bans)
+
+g)	Dendrocalamus hookeri (Kalo bans/ Bhalu bans)
+
+All of the bamboos above belonged to the large bamboo category. (Note: the names provided in the brackets are local names typically used in various Nepalese communities)
+
+## Preview of the data
+
+Below is the table showing the necessary variables for the Bambusa group for analysis.
+
+Below is the table showing the necessary variables for Dendrocalamus group for analysis. 
+
+## Summary of Bambusa Group
+
+The descriptive statistics for this study included mean, maximum and minimum values of dbh, height of culmination, base and length for Bambusa species, which are shown in the table below.
 
 
-### Secondary Data Collection
+## Summary of Dendrocalamus Group
 
-Other secondary data were gathered through a comprehensive review of various manuals, published reports, and literature prepared by the FRTC, particularly about bamboo, and several other published reports and articles from different sources on the internet were taken into consideration during the whole data analysis.
-
+The descriptive statistics for this study included mean, maximum, and minimum values of dbh, height of culmination, base, and length for Dendrocalamus species, which are shown in the table below. 
 
 ## Data analysis
 
@@ -164,65 +192,31 @@ $$[ r = \frac{{\sum_{i=1}^{n} (X_i - \bar{X})(Y_i - \bar{Y})}}{{\sqrt{\sum_{i=1}
 
 Primarily, the height and diameter have a linear relationship, whereas some of the cases have the effect of other variables like climate, topography and other external factors.  In the case of bamboo and its nature of leaning and the portion of length after the culmination height, we collected data related to culmination height and base distance (distance between seeding point and the base of culmination height). So, we had three parameters to predict the total length of the bamboo culm.
 
-Linear fitting was employed to establish the relationship model between height and diameter. Eighty percent of the dataset was designated as training data, while the remaining portion was allocated for assessing the developed model. This evaluation aimed to analyze the model's performance on hypothetical data and assess its applicability to fresh observations. The best fitting model has been given from the analysis, and the best fit of the model was tested by Adjusted R² and root mean square error (RMSE). Adjusted R² is a metric for gauging how well a model matches observable data. Demonstrating the model's capability to accommodate data variability, it quantifies the proportion of variation in the dependent variable that can be attributed to the independent variables. It takes into account how many predictors are included in the model and restricts the addition of extraneous predictors (Hocking, 1976). In regression tasks where the objective is to predict continuous numerical values, RMSE is particularly helpful in order to evaluate the accuracy of predictions and provide a significant measure of the model’s performance. It also has several appealing properties that make it a preferred option for assessing regression models (Willmott, 1981). For Adjusted R² higher values are preferred, ranging from 0 to 1, and that for RMSE, lower values are preferred. The formula for Adjusted R² is given by:
+Linear fitting was employed to establish the relationship model between height and diameter. Eighty percent of the dataset was designated as training data, while the remaining portion was allocated for assessing the developed model. This evaluation aimed to analyze the model's performance on hypothetical data and assess its applicability to actual observations. The best fitting model has been given from the analysis, and the best fit of the model was tested by Adjusted R² and root mean square error (RMSE). Adjusted R² is a metric for gauging how well a model matches observable data. Demonstrating the model's capability to accommodate data variability, it quantifies the proportion of variation in the dependent variable that can be attributed to the independent variables. It takes into account how many predictors are included in the model and restricts the addition of extraneous predictors (Hocking, 1976). In regression tasks where the objective is to predict continuous numerical values, RMSE is particularly helpful in order to evaluate the accuracy of predictions and provide a significant measure of the model’s performance. It also has several appealing properties that make it a preferred option for assessing regression models (Willmott, 1981). For Adjusted R² higher values are preferred, ranging from 0 to 1, and that for RMSE, lower values are preferred. The formula for Adjusted R² is given by:
 $$[\text{Adjusted R}^2 = 1 - \left(1 - R^2\right) \frac{n - 1}{n - k - 1}].............(ii)$$ 
 Similarly, the formula for root mean square error is given by;
 
 $$[ \text{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2} ]...........(iii)$$
 
+
 # Results
 
-## Data structure and status
-
- The research mainly focused on seven major species found in Nepal. The destructive sampling was carried out for these seven species. The seven major species included are:
-
-a)	Bambusa balcooa (Dhanu/ Ghar/ Harouti Bans)
-
-b)	Bambusa nepalensis (Choya/ Tama/ Khasre/ Phusre Bans)
-
-c)	Bambusa nutans subsp. cupulata (Mal/ Mala/ Thulo/ Lisingfa Bans)
-
-d)	Bambusa nutans subsp. nutans (Taru/ Tharu /Sate/ Chille / Ghar bans)
-
-e)	Bambusa tulda (Jhapta/ Chav/ Chab/ Kada/ Koraincho bans)
-
-f)	Dendrocalamus hamiltonii var. hamiltonii and undulatus (Choya/ Tama/ Guliyo/ Dhungre/ Ban bans)
-
-g)	Dendrocalamus hookeri (Kalo bans/ Bhalu bans)
-
-All of the bamboos above belonged to the large bamboo category. (Note: the names provided in the brackets are local names typically used in various Nepalese communities)
-
-### Preview of the data
-
-Below is the table showing the necessary variables for the Bambusa species for analysis.
-
-Below is the table showing the necessary variables for Dendrocalamus species for analysis. 
-
-### Summary of Bambusa Group
-
-The descriptive statistics for this study included mean, maximum and minimum values of dbh, height of culmination, base and length for Bambusa species, which are shown in the table below.
-
-
-### Summary of Dendrocalamus Group
-
-The descriptive statistics for this study included mean, maximum, and minimum values of dbh, height of culmination, base, and length for Dendrocalamus species, which are shown in the table below. 
-
-### Correlation between the variables
+## Correlation between the variables
 
 Figure 3 explains that the length of the bamboo and the culmination height have the highest correlation, i.e., 0.9. As we know, there is a strong correlation between d30 and dbh, i.e., 0.96, so we used only the dbh as there will be higher multicollinearity between the given variables (i.e., there is no significant difference in using dbh and d30), and with the given multicollinearity, the model so formed tends to be complex, and thus the d30 was not used for further analysis. We started to test the model first with the dbh as independent variable and the length(m) as dependent variable. Similarly, the correlation between dbh and base was found to be 0.15, with the height of culmination being 0.68 and with the length to be 0.70. For better results, we kept on testing the model by adding one more variable, i.e., the height up to the culmination and the base. Following are the consecutive models prepared by adding one more variable, respectively.
 
 
-### Fitting models
+## Fitting models
 
-#### Simple Linear Model for Bambusa Species
+### Simple Linear Model for Bambusa Species
 
 With ht_culmination as the independent variable and length in m as the dependent variable
 Model result for Bambusa Species.
 
 
-## Discussion
+# Discussion
 
-### Testing the statistical differences in the results of two different models by applying the same independent variables to them
+## Testing the statistical differences in the results of two different models by applying the same independent variables to them
 
 To test the statistical differences between the results of these two sets of predictions, we applied the same independent variables. The descriptive statistics employed in this study includes the average, maximum, and minimum values of diameter at breast height (dbh), height of culmination, and length.
 The normality of the data was assessed through the Shapiro-Wilk test, which, in contrast to alternative tests such as the Kolmogorov-Smirnov or Anderson-Darling tests, offers a more precise evaluation of normality, especially advantageous when dealing with small to moderate sample sizes, typically fewer than 2,000 observations (Shapiro & Wilk, 1965).
@@ -234,11 +228,11 @@ In the box plot, the distribution of two sets of predictions has been shown. Fro
 
 
 
-### Result from normality test of two sets of prediction
+## Result from normality test of two sets of prediction
 
 From the test performed above for both, the predicted values, i.e., p values were 0.0203 and 0.0625, respectively. As the p-value was found to be less than 0.005 for the Bambusa group and greater than 0.05 for the Dendrocalamus group, they are considered statistically and marginally significant at a 0.95 confidence interval. This indicates that the test results are not likely to have happened by coincidence and there exists evidence which proved the data were almost normal. Since the data were almost normal, we calculated the variance of the data.
 
-### Variance test
+## Variance test
 
 As the distribution of the prediction was not perfectly normal, we used classical Levene’s test to evaluate the equality of variances across various datasets. The test is frequently employed as a preliminary test, for some parametric tests such as the t-test or analysis of variance (ANOVA) (H, 1960). Some of the probable reasons that have led to marginally significant normality of the Dendrocalamus group could be
 
@@ -254,7 +248,7 @@ $$( d_{ij} = |X_{ij} - \bar{X}_i| ) ..............(v)$$
 
 The p-value derived from the variance test utilizing the classical Levene's test, which is based on absolute deviations from the mean, was determined to be 0.1, with a corresponding test statistic value of 2.71. As the result from the variance test was greater then 0.05, which is statistically insignificant, thus implying the results, we failed to reject the null hypothesis i.e., there is no any significant relationship between diameter and length of these two bamboo species. However, there are scholars who claim to have accepted alternative hypothesis based on higher correlation coefficients as significant relationships on their particular research (Wang et al., 2004). Here in this study, there was a strong correlation between dbh and length in m, i.e., 0.70, as the correlation coefficient itself is the measure of correlation strength (Lindley, 1999).
 
-### T-test results
+## T-test results
 
 For testing the regression coefficients, we used a t-test. For t-test, we used Welch’s two-sample t-test which is applicable in situations where the presumption of equal variances might not apply, and is used to differentiate the means of two independent groups. It is a modified form of the two-sample t-test that takes into account the various variances present in the two groups being compared. When the assumption of equal variances is unclear, this test is more robust and dependable (Welch, 1947). The formula for Welch’s two-sample t-test is given by;
 
@@ -275,17 +269,17 @@ a. Practical Significance      c. Theoretical Importance
 
 b. Model Selection              d. Multicollinearity
 
-### Conclusion
+# Conclusion
 
-The development of models for predicting the length of bamboo is very essential for the sustainable management of bamboo resources. Today, many planning and policy development processes cannot reach a logical conclusion without modeling and simulation. As a result, the objective of this study was to develop an individual model that will help us predict the length of standing bamboo culms to identify their growth for use in bamboo resource management found in non-forest areas or outside the forest. In this study, only a simple linear model was used to create the individual model for predicting the length of an individual culm. From the results, the simple linear model is the best fitting model for both groups, i.e., the Bambusa group and the Dendrocalamus group, with higher R² values. Thus, the final equation so obtained for the Bambusa group is:
+The development of models for predicting the length of bamboo is very essential for the sustainable management of bamboo resources. Today, many planning and policy development processes cannot reach a logical conclusion without modeling and simulation. As a result, the objective of this study was to develop an individual model that will help us predict the length of standing bamboo culms to identify their growth for use in bamboo resource management found in non-forest areas or outside the forest. In this study, only a simple linear model was used to create the individual model for predicting the length of an individual culm. From the results, the multiple linear model is the best fitting model for both groups, i.e., the Bambusa group and the Dendrocalamus group, with higher R² values. Thus, the final equation so obtained for the Bambusa group is:: L(m)= 0.907 * ht_culmination + 0.248 * dbh + 0.807*base+0.141 with Adj.R2 as 0.896 and RMSE as ± 1.63 respectively.
 
-The accuracy of this model is better because it uses individual culm-level variables and parameters. Moreover, this study offers a comprehensive model that predicts the length of bamboo using available variables, along with how accurate these predictions are. To conclude, the best results are obtained when all three of the variables are used as independents, i.e., the dbh, base, and height up to culmination.
+Similarly, the final equation obtained for the Dendrocalamus group is: 0.978 * ht_culmination +(-0.025) * dbh + 0.505*base+1.745 with Adj. R² as 0.88 and RMSE as ± 0.95 respectively.The accuracy of this model is better because it uses individual culm-level variables and parameters. Moreover, this study offers a comprehensive model that predicts the length of bamboo using available variables, along with how accurate these predictions are. To conclude, the best results are obtained when all three of the variables are used as independents, i.e., the dbh, base, and height up to culmination.
 
-#### Acknowledgement
+# Acknowledgement
 
 The authors would like to acknowledge the technical and financial support of Forest Research and Training Center, Kathmandu, Nepal provided for the research accomplishment. 
 
-#### Conflicts of Interest
+# Conflicts of Interest
 
 The authors confirm that they have no conflicts of interest that could have biased their research.
 
