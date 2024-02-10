@@ -285,7 +285,7 @@ The accuracy of this model is better because it uses individual culm-level varia
 
 The authors would like to acknowledge the technical and financial support of Forest Research and Training Center, Kathmandu, Nepal provided for the research accomplishment. 
 
-##### Conflicts of Interest
+#### Conflicts of Interest
 
 The authors confirm that they have no conflicts of interest that could have biased their research.
 
